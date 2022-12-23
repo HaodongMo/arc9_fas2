@@ -119,7 +119,7 @@ function ENT:Detonate(impact)
         end
 
         // Overpressure radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 64, 200)
+        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 100, 200)
         // Shrapnel radius
         util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 512, 50)
 
