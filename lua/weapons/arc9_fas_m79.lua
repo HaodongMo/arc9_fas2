@@ -181,7 +181,7 @@ SWEP.NoShellEject = true
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
 SWEP.CamQCA = 1
-SWEP.CamQCA_Mult = 0.1
+SWEP.CamQCA_Mult = 1
 SWEP.CamCoolView = true
 
 -------------------------- SOUNDS

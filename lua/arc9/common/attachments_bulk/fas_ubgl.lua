@@ -57,6 +57,11 @@ ATT.IKGunMotionQCA = 2
 ATT.IKGunMotionMult = 0.5
 ATT.IKGunMotionAngleMult = 0.5
 
+ATT.IKCameraMotionQCA = 3
+ATT.IKCameraMotionOffsetAngle = Angle(0, 90, 90)
+
+ATT.CamCoolViewUBGL = false
+
 ATT.ActivePosHook = function(wep, vec)
     return vec + Vector(2, 0, 0)
 end
