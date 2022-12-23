@@ -592,6 +592,8 @@ SWEP.Hook_ModifyBodygroups = function(self, data)
         else
             mdl:SetBodygroup(2, 3)
         end
+    elseif self:HasElement("fas_mp5_barrel_sd") then
+        mdl:SetBodygroup(2, 2)
     end
 end
 
