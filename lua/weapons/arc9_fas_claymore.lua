@@ -69,6 +69,8 @@ SWEP.Detonator = true
 
 SWEP.BottomlessClip = true
 
+SWEP.Disposable = false
+
 -------------------------- MAGAZINE
 
 SWEP.Ammo = "slam" -- What ammo type this gun uses.
@@ -163,6 +165,12 @@ SWEP.Animations = {
     ["idle_detonator"] = {
         Source = "idle_det"
     },
+    ["idle_empty"] = {
+        Source = "idle_det"
+    },
+    ["draw_empty"] = {
+        Source = "deploy_det"
+    },
     ["draw_detonator"] = {
         Source = "deploy_det",
         EventTable = {
@@ -170,6 +178,9 @@ SWEP.Animations = {
         }
     },
     ["holster_detonator"] = {
+        Source = "holster_det"
+    },
+    ["holster_empty"] = {
         Source = "holster_det"
     },
     ["touchoff"] = {
