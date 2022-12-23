@@ -362,7 +362,6 @@ SWEP.Animations = {
     },
     ["reload_empty_proficient"] = {
         Source = "reload_empty_nmc",
-        NoMagSwap = true,
         MagSwapTime = 6 / 30,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
