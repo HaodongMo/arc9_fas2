@@ -172,7 +172,7 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-2.435, -3, 1.55),
+    Pos = Vector(-2.435, -3, 1.55) * 1.5,
     Ang = Angle(0, 0, 0),
     Midpoint = { -- Where the gun should be at the middle of it's irons
         Pos = Vector(-4, 0, -8),
@@ -551,10 +551,10 @@ SWEP.Attachments = {
         PrintName = "OPTIC",
         Category = {"fas_optic", "fas_optic_big"},
         Bone = "RagingBullBase",
-        Pos = Vector(5, -2.5, 0),
+        Pos = Vector(5, -3.75, 0),
         Ang = Angle(0, 0, -90),
         InstalledElements = {"scoped"},
-        Scale = 0.75
+        Scale = 1
     },
     {
         PrintName = "PERK",

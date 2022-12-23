@@ -172,7 +172,7 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-3.85, -10, 3.5),
+    Pos = Vector(-3.85, -10, 3.5) * 0.75,
     Ang = Angle(0, 0, 0),
     Midpoint = { -- Where the gun should be at the middle of it's irons
         Pos = Vector(-4, 0, -8),
@@ -504,14 +504,14 @@ SWEP.Attachments = {
         PrintName = "MUZZLE",
         Category = "fas_supp_shotgun",
         Bone = "Body",
-        Pos = Vector(-4.8, 56, -3),
+        Pos = Vector(-5, 56, -3) * 0.75,
         Ang = Angle(0, -90, 0),
     },
     {
         PrintName = "SIDERAIL",
         Category = "fas_ak_rail",
         Bone = "Body",
-        Pos = Vector(-3.8, 18, -4),
+        Pos = Vector(-3.8, 18, -4) * 0.75,
         Ang = Angle(0, -90, 0),
         InstalledElements = {"sight"}
     },
@@ -519,7 +519,7 @@ SWEP.Attachments = {
         PrintName = "TACTICAL",
         Category = "fas_tactical",
         Bone = "Body",
-        Pos = Vector(-4.98, 51.5, -6),
+        Pos = Vector(-4.98, 51.5, -6) * 0.75,
         Ang = Angle(0, -90, 0),
     },
     {
@@ -527,18 +527,18 @@ SWEP.Attachments = {
         Category = "fas_ammo_shotgun",
         Bone = "Body",
         Icon_Offset = Vector(0, 0, 0),
-        Pos = Vector(-4.8, 15, -3),
+        Pos = Vector(-4.8, 15, -3) * 0.75,
         Ang = Angle(0, 0, 90),
-        Scale = 1.9,
+        Scale = 1.4,
         DuplicateModels = {
             {
                 Bone = "shell01",
-                Pos = Vector(-4.4, -7.6, -12.4),
+                Pos = Vector(-4.4, -7.6, -12.4) * 0.75,
                 Ang = Angle(0, 0, 90),
             },
             {
                 Bone = "shell02",
-                Pos = Vector(-4.45, -7.6, -14.9),
+                Pos = Vector(-4.45, -7.6, -14.9) * 0.75,
             },
         }
     },
@@ -546,7 +546,7 @@ SWEP.Attachments = {
         PrintName = "PERK",
         Category = "fas_perk",
         Bone = "Body",
-        Pos = Vector(-5.4, 10, -6),
+        Pos = Vector(-5.4, 10, -6) * 0.75,
         Ang = Angle(0, 0, 0),
     },
 }
