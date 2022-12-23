@@ -5,7 +5,7 @@
 	"$phong" 			"1"
 	"$phongexponent"		"35"
 	"$phongboost" 			"2"
-	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	"$phongfresnelranges"		"[0.1 0.4 .8]"//"[0.1 0.4 .8]"
 	"$halflambert"			"0"
 	$phongdisablehalflambert 1
 	"$normalmapalphaenvmapmask"	"1"
