@@ -109,11 +109,7 @@ function ENT:Detonate(impact)
 
         self:EmitSound("weapons/underwater_explode3.wav", 100)
     else
-        local mat = MAT_DEFAULT
-        if IsValid(impact.HitEntity) then
-            mat = impact.HitEntity:GetMaterialType()
-        end
-        if bloodmat[mat] then
+        if impact.TheirSurfaceProps == 126 then
             ParticleEffect("explosion_m79_body", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
         else
             ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
