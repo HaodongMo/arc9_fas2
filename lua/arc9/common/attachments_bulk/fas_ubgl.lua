@@ -90,7 +90,7 @@ ATT.EnterUBGLSound = ARC9FAS.Deploy
 ATT.ExitUBGLSound = ARC9FAS.Holster
 
 ATT.ShootEntUBGL = "fas_proj_40mm_he"
-ATT.ShootEntForceUBGL = 15000
+ATT.ShootEntForceUBGL = 2500
 
 ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 
