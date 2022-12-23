@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\accessories\mpr45_c"
+	"$bumpmap" "models\weapons\arc9_fas\view\accessories\mpr45_n"
+	"$normalmapalphaenvmapmask" 0
+	
+	"$phong" 		"1"
+	"$phongexponent" "15"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0.5 1.5 3.0]"
+	
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" 			"1"
+	"$envmapFresnelMinMaxExp" "[0 5 .4]"
+	"$envmaptint" "[.05 .05  .05]"
+}

@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\arc9_fas\view\rifles\m4a1\diffuse"
+	//"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small
+
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongexponent"                                   "15"
+	"$phongboost" 			"2"
+	"$phongfresnelranges"		"[0.1 0.4 .8]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+}

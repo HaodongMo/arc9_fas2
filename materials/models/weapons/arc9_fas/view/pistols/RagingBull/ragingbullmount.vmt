@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\pistols\RagingBull/RagingBullMount"
+	"$bumpmap" "models\weapons\arc9_fas\view\pistols\RagingBull/RagingBullMount_normal"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+
+	"$phong" 			"1"
+	"$phongexponent"			"10"
+	"$phongboost" 			"5"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"
+	"$normalmapalphaenvmapmask"	"1"
+	
+	"$rimlight" 1
+	"$rimlightexponent" 15
+}

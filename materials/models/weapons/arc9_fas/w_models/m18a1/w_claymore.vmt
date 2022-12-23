@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\w_models\m18a1\M18A1"
+	"$bumpmap" "models\weapons\arc9_fas\w_models\m18a1\M18A1_normal"
+}

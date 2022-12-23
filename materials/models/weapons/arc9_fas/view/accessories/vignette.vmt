@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\accessories\vignette"
+	"$translucent" "1"
+//	"$ignorez" "1"
+}

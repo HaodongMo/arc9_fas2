@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\v_models\accessories/AimpointCompM2_Bits"
+	"$bumpmap"	"models\weapons\arc9_fas\v_models\accessories/AimpointCompM2_Bits_Normal" //small
+
+	"$phong" 			"1"
+	"$phongtint" 			"[1 1 0.8]"
+	"$phongexponent" 		"120"
+	"$phongboost" 			"0.5"
+	"$phongfresnelranges"		"[0.6 1.5 2.0]"
+	"$halflambert"			"1"
+}

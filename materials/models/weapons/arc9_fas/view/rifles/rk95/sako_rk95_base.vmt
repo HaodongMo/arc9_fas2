@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\rifles\rk95\Sako_Rk95_Base"
+	//"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal"
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongexponent"                                   "15"
+	"$phongboost" 			"2"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+}

@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arc9_fas\view\hands\sleeve"
+	"$bumpmap" "models\weapons\arc9_fas\view\hands\sleeve_normal"
+//	"$detail"		"models\weapons\arc9_fas\v_models\hands\sleeve_detail"
+	"$phongexponenttexture" "models/albedotint"
+//	"$detailscale"		"10"
+//	"$detailblendfactor"	"0.8"
+//	"$detailblendmode"	"0"
+	"$phong" 			"1"
+	"$phongexponent"		"15"
+	"$phongboost" 			"5"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	$phongdisablehalflambert 1
+	$halflambert 0
+	$PhongAlbedoTint 1
+	
+	"$rimlight" 0
+	"$rimlightexponent" 6
+}

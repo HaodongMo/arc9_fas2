@@ -1,0 +1,14 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\arc9_fas\view\rifles\m4a1\accyuv" 			//BURR
+	//"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small	  IT'S GUCCI!!
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongexponent"                                   "15"
+	"$phongboost" 			"2"
+	"$phongfresnelranges"		"[0.1 0.4 .8]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+}

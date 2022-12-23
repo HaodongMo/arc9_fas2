@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$translucent" 1
+	"$additive" 1
+	"$basetexture"	"models\weapons\arc9_fas\view\accessories\Acog\Trit"
+	"$halflambert" 	"1"
+}

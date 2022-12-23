@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/scope_pso_illum"
+	"$translucent"		"1"
+	"$model" "1"
+}

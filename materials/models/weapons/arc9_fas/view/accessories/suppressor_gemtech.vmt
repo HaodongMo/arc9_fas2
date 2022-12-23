@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\accessories\Suppressor_Gemtech"	
+	"$bumpmap" "models\weapons\arc9_fas\view\accessories\Suppressor_Gemtech_Normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$phong" 			"1"
+	"$phongexponent"		"20"
+	"$phongboost" 			"4"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+	"$normalmapalphaenvmapmask"	"1"
+	
+	"$rimlight" 0
+	"$rimlightexponent" 15
+}

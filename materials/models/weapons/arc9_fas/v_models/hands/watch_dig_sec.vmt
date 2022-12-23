@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arc9_fas\v_models\hands\watch_dig_sec"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" "0.0166666666"
+			"texturescrollangle" "0.00"
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arc9_fas\v_models\hands\hand"
+	"$bumpmap" "models\weapons\arc9_fas\v_models\hands\hand_normal"
+	"$phong" "1"
+	"$phongexponent" "40"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[0.3 0.8 1]"
+	"$halflambert" "1"
+	"$phongalbedotint" "1"
+
+	Proxies
+	{
+		"FASAppearanceSpecific"
+		{
+			"targettexture"	"$basetexture"
+			BlueTeam
+			{
+				"0"	"models\weapons\arc9_fas\v_models\hands\hand"
+				"1"	"models\weapons\arc9_fas\v_models\hands\hand_camo"
+				"2"	"models\weapons\arc9_fas\v_models\hands\hand"
+				"3"	"models\weapons\arc9_fas\v_models\hands\hand_tan"
+				"4"	"models\weapons\arc9_fas\v_models\hands\hand"
+			}
+			RedTeam
+			{
+				"0"	"models\weapons\arc9_fas\v_models\hands\hand"
+				"1"	"models\weapons\arc9_fas\v_models\hands\hand_camo"
+				"2"	"models\weapons\arc9_fas\v_models\hands\hand"
+				"3"	"models\weapons\arc9_fas\v_models\hands\hand_tan"
+				"4"	"models\weapons\arc9_fas\v_models\hands\hand"
+			}
+		}
+	}
+}

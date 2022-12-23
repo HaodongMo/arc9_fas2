@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\rifles\akm\dustcovers"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongtint" 			"[0.7 0.9 1]"
+	"$phongexponent" 		"50"
+	"$phongboost" 			"1"
+	"$phongfresnelranges"		"[0.5 0.5 3.0]"//"[0.5 1.5 3.0]"
+	"$halflambert"			"1"
+}

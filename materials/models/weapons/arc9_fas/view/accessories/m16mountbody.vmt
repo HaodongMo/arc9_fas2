@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\accessories\m16mountbody"
+	"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small
+	"$phong" 			"1"
+	"$phongexponent" 		"50"
+	"$phongboost" 			"0.5"
+	"$phongfresnelranges"		"[0.3 0.5 .6]"
+	"$halflambert"			"1"
+}

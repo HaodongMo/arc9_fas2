@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\accessories\ter_reticle_cross"
+	"$model" "1"
+	"$additive" "1"
+	
+	Proxies
+	{
+		IronsightFractionAlpha
+		{
+			"minFrac"	"0.7"
+		}
+	}
+
+}

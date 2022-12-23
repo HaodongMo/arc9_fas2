@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arc9_fas\view\hands\nomex"
+	"$bumpmap" "models\weapons\arc9_fas\view\hands\nomex_normal"
+	"$phongexponenttexture" "models/albedotint"
+	"$phong" 			"1"
+	"$phongexponent"		"17"
+	"$phongboost" 			"12"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	$phongdisablehalflambert 1
+	$halflambert 0
+	$PhongAlbedoTint 1
+	
+	"$rimlight" 0
+	"$rimlightexponent" 15
+}

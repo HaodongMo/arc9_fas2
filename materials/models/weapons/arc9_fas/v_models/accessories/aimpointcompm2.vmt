@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\v_models\accessories/AimpointCompM2"
+	//"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small
+	"$bumpmap"	"models\weapons\arc9_fas\v_models\accessories/AimpointCompM2_normal" //small
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+	"$normalmapalphaenvmapmask" 	"1"
+	"$phong" 			"1"
+	"$phongtint" 			"[1 1 0.8]"
+	"$phongexponent" 		"15"
+	"$phongboost" 			"1"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"
+	"$halflambert"			"1"
+}

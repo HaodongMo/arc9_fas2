@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\accessories\optic_ter_screen"	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.05 .05 .05]"
+	"$phong" 			"1"
+	"$phongexponent"		"20"
+	"$phongboost" 			"4"
+	"$phongfresnelranges"		"[0.1 0.4 .8]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+	"$basealphaenvmapmask"	"1"
+	
+	"$rimlight" 0
+	"$rimlightexponent" 15
+}

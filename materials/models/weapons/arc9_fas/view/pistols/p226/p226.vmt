@@ -1,0 +1,16 @@
+ VertexLitGeneric 
+{ 
+	"$baseTexture" 			"models\weapons\arc9_fas\view\pistols\p226\p226.vtf" 
+	"$basealphaenvmapmask" "1"
+	"$PhongAlbedoTint" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$basemapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongtint" "[1 1 0.7]"
+	//"$phongexponenttexture" "models\weapons\arc9_fas\v_models\p226\p226.vtf"
+	"$phongexponent" 		"50"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	"$halflambert" "1"
+}

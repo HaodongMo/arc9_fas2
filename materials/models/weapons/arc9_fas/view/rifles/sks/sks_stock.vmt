@@ -1,0 +1,19 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\rifles\sks\sks_stock.vtf"
+	"$bumpmap" "models\weapons\arc9_fas\view\rifles\sks\sks_stock_normal.vtf"
+	"$phongexponenttexture" "models/albedotint"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+	"$phong" "1"
+	"$phongexponent""10"
+	"$phongboost" "20"
+	"$phongfresnelranges""[0.1 0.4 .8]"//"[0.1 0.4 .8]"
+	$phongdisablehalflambert 1
+	$halflambert 0
+	$PhongAlbedoTint 1
+	"$normalmapalphaenvmapmask""1"
+	"$rimlight"               "0"
+	"$rimlightexponent"       "1"
+	"$rimlightboost"          "2.5"
+}

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\accessories\Acog\Acog"
+	//"$bumpmap" 	"models\weapons\arc9_fas\view\accessories\Acog\Acog_Normal"
+	//"$envmap" "env_cubemap"
+	//"$normalmapalphaenvmapmask" 1
+	"$halflambert" 	"1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 0 -1]"
+	"$phongalbedotint" "1"
+}

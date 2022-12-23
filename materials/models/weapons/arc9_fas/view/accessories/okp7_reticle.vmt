@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\accessories\okp7_reticle"
+	"$model" "1"
+	"$additive" "1"
+	
+	Proxies
+	{
+		IronsightFractionAlpha
+		{
+			"minFrac"	"0.7"
+		}
+	}
+
+}

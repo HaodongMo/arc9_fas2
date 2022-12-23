@@ -1,0 +1,11 @@
+patch
+{
+	include materials\models\weapons\arc9_fas\v_models\mp5\handguard.vmt
+	insert
+	{
+		"$detail" "detail\fas_woodlandcamo.vtf"
+		"$detailscale" "0.75"
+		"$detailblendfactor" "0.5"
+		"$detailblendmode" "1"
+	}
+}

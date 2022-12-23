@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\arc9_fas\view\rifles\m16a2\deux"
+	//"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongtint" 			"[1 1 0.8]"
+	"$phongexponent" 		"50"
+	"$phongboost" 			"2"
+	"$phongfresnelranges"		"[0.1 0.4 .8]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+}

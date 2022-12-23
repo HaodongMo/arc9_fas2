@@ -1,0 +1,11 @@
+patch
+{
+	include materials\models\weapons\arc9_fas\v_models\870\v_870.vmt
+	insert
+	{
+			"$detail" "detail\fas_desertcamo2.vtf"
+			"$detailscale" "1"
+			"$detailblendfactor" "0.2"
+			"$detailblendmode" "1"
+	}
+}

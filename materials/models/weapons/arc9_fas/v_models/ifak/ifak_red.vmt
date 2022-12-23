@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+	"$baseTexture"		"models/weapons/v_models/ifak/IFAK_red"
+        "$bumpmap"		"models/weapons/v_models/ifak/IFAK_normal"
+$phong 1
+$phongboost "0.2"
+$phongexponent 15
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.3 4 30]"
+$ambientocclusion 1
+"$detail"		"models/player/shared/fabric_detail"
+"$detailscale"		"20"
+"$detailblendfactor"	"0.5"
+"$detailblendmode"	"0"
+}

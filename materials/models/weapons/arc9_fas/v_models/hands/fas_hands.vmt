@@ -1,0 +1,57 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arc9_fas\v_models\hands\fas_hands"
+	"$bumpmap" "models\weapons\arc9_fas\v_models\hands\fas_hands_normal"
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[0.05 0.5 1]"
+	"$halflambert" "1"
+	//"$phongexponenttexture" "models\weapons\arc9_fas\v_models\hands\fas_hands_exp"
+	"$phongalbedotint" "1"
+
+	Proxies
+	{
+		"FASAppearanceSpecific"
+		{
+			"targettexture"	"$basetexture"
+			BlueTeam
+			{
+				"0"	"models\weapons\arc9_fas\v_models\hands\fas_hands2"
+				"1"	"models\weapons\arc9_fas\v_models\hands\fas_hands2"
+				"2"	"models\weapons\arc9_fas\v_models\hands\fas_hands2"
+				"3"	"models\weapons\arc9_fas\v_models\hands\fas_hands2"
+				"4"	"models\weapons\arc9_fas\v_models\hands\fas_hands2"
+			}
+			RedTeam
+			{
+				"0"	"models\weapons\arc9_fas\v_models\hands\fas_hands"
+				"1"	"models\weapons\arc9_fas\v_models\hands\fas_hands"
+				"2"	"models\weapons\arc9_fas\v_models\hands\fas_hands"
+				"3"	"models\weapons\arc9_fas\v_models\hands\fas_hands"
+				"4"	"models\weapons\arc9_fas\v_models\hands\fas_hands"
+			}
+		}
+
+		"FASAppearanceSpecific"
+		{
+			"targettexture"	"$bumpmap"
+			BlueTeam
+			{
+				"0"	"models\weapons\arc9_fas\v_models\hands\fas_hands2_normal"
+				"1"	"models\weapons\arc9_fas\v_models\hands\fas_hands2_normal"
+				"2"	"models\weapons\arc9_fas\v_models\hands\fas_hands2_normal"
+				"3"	"models\weapons\arc9_fas\v_models\hands\fas_hands2_normal"
+				"4"	"models\weapons\arc9_fas\v_models\hands\fas_hands2_normal"
+			}
+			RedTeam
+			{
+				"0"	"models\weapons\arc9_fas\v_models\hands\fas_hands_normal"
+				"1"	"models\weapons\arc9_fas\v_models\hands\fas_hands_normal"
+				"2"	"models\weapons\arc9_fas\v_models\hands\fas_hands_normal"
+				"3"	"models\weapons\arc9_fas\v_models\hands\fas_hands_normal"
+				"4"	"models\weapons\arc9_fas\v_models\hands\fas_hands_normal"
+			}
+		}
+	}
+}

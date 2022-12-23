@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+	"$basetexture"	"models\weapons\arc9_fas\view\accessories\Acog\reticle_chevron"
+	"$translucent" 	"1"
+	//"$alphatest"	"1"
+
+}

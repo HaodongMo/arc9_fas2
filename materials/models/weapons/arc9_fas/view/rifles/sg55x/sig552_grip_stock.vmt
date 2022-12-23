@@ -1,0 +1,9 @@
+VertexLitGeneric 
+{ 
+	"$baseTexture" "models\weapons\arc9_fas\view\rifles\sg55x\sig552_grip_stock"
+	"$phong" "1" 
+	"$phongexponent" "20"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+ 	"$halflambert" "1"
+}

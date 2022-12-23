@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\arc9_fas\v_models\m249\front"
+	"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small
+	
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	"$basemapalphaphongmask" 	"1"
+	
+	"$phong" 			"1"
+	"$phongexponent" 		"35"
+	"$phongboost" 			"1"
+	"$phongfresnelranges"		"[0.3 0.5 .6]"
+	"$halflambert"			"1"
+}

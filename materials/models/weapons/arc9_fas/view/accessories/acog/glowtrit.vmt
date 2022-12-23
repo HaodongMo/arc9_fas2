@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arc9_fas\view\accessories\Acog\GlowTrit"
+	"$translucent" 1
+	"$selfillum"1
+	"$additive"1
+	"$halflambert" 	"1"
+}

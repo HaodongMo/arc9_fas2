@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\v_models\accessories\tritium"
+   	"$selfillum" "1"
+}

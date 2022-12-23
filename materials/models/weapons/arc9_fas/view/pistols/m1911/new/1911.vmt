@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\pistols\m1911\1911"
+	"$bumpmap" "models\weapons\arc9_fas\view\pistols\m1911\1911_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .3]"
+
+	"$phong" 			"1"
+	"$phongexponent"			"20"
+	"$phongboost" 			"4"
+	"$phongfresnelranges"		"[0.25 1.0 2.0]"
+	"$normalmapalphaenvmapmask"	"1"
+	
+	"$rimlight" 1
+	"$rimlightexponent" 15
+}

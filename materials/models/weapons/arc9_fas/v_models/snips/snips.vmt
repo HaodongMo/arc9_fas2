@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\arc9_fas\v_models\snips\snips"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.001 .001 .001]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongtint" 			"[0.4 0.4 1]"
+	"$phongexponent" 		 "60"
+	"$phongboost" 			"0.8"
+	"$phongfresnelranges"		"[0.7 0.8 1.5]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+
+
+}

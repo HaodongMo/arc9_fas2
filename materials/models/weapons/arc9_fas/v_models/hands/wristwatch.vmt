@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\arc9_fas\v_models\hands\wristwatch"
+	"$phong" "1"
+	"$phongexponent" "100"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[0.3 0.7 1.5]"
+	"$halflambert" "1"
+	"$phongalbedotint" "1"
+}

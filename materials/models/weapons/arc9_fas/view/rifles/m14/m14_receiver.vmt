@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\rifles\m14\m14_receiver"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.15 .15 .2]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongtint" 			"[1 1 1]"
+	"$phongexponent" 		"60"
+	"$phongboost" 			"1"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+}

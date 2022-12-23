@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\arc9_fas\v_models\accessories/KAC_UM4QD"
+	"$bumpmap"	"models\weapons\arc9_fas\v_models\default_normal" //small
+
+	"$phong" 			"1"
+	"$phongtint" 			"[1 1 0.8]"
+	"$phongexponent" 		"120"
+	"$phongboost" 			"1.5"
+	"$phongfresnelranges"		"[0.5 2.5 3.0]"
+	"$halflambert"			"1"
+}

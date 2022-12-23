@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\pistols\glock18\frame"
+	"$bumpmap"	"models\weapons\arc9_fas\view\pistols\glock18\frame_n"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.1 .1 .1]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.4"	
+	"$phongfresnelranges"	"[0.5 0.9 1.5]"
+	"$halflambert" "1"
+	//"$phongexponenttexture" "models\weapons\arc9_fas\v_models\hands\fas_hands_exp"
+	"$phongalbedotint" "1"
+
+	
+}

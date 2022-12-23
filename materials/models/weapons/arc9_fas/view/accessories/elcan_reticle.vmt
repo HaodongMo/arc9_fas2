@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\view\accessories\elcan_reticle"
+	"$translucent"		"1"
+	"$model" "1"
+}
