@@ -1,0 +1,121 @@
+$definebone		"Right Hand"		"" -11.631300 -20.181362 -6.270024 -0.642114 89.643082 -179.659744 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone		"Right Lower Arm2"		"Right Hand" 0.003706 -0.022086 0.000014 -2.096853 -2.794373 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_SF"		"Right Lower Arm2" 0.000000 0.000000 -0.000000 0.000000 179.999985 -89.999931 0.000000 -0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_Forearm"		"ValveBiped.Bip01_R_SF" -11.000001 0.000000 0.000000 -0.000000 0.000000 90.000099 0.000000 0.000001 -0.000000 0.000000 0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_UpperArm"		"ValveBiped.Bip01_R_Forearm" -9.999999 0.000001 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000
+$definebone		"Right Demonstratus Phalanges1"		"Right Hand" -5.386225 1.197876 -0.211204 -5.218156 175.165802 -88.556419 0.000000 0.000000 -0.000001 0.000000 -0.000000 0.000000
+$definebone		"Right Demonstratus Phalange2"		"Right Demonstratus Phalanges1" 1.337833 -0.000460 0.001976 0.898168 0.209359 0.603439 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000
+$definebone		"Right Demonstratus Phalange3"		"Right Demonstratus Phalange2" 1.241356 -0.000704 0.000368 -0.267973 -0.515147 0.367323 0.000000 0.000000 0.000001 -0.000001 -0.000001 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger12"		"Right Demonstratus Phalange3" 0.000000 0.000000 0.000001 -0.000001 -0.000001 -0.000000 0.000000 0.000000 0.000001 -0.000001 -0.000001 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger11"		"Right Demonstratus Phalange2" 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_Finger1"		"Right Demonstratus Phalanges1" 0.000000 0.000000 -0.000001 0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000001 0.000000 -0.000000 0.000000
+$definebone		"Right Impudicus Phalanges1"		"Right Hand" -5.470812 0.093223 -0.308848 -5.927536 -179.679794 -88.760162 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000
+$definebone		"Right Impudicus Phalanges2"		"Right Impudicus Phalanges1" 1.386524 -0.003032 0.000914 0.476529 1.580504 -0.390070 0.000000 0.000000 0.000001 -0.000000 -0.000000 0.000000
+$definebone		"Right Impudicus Phalanges3"		"Right Impudicus Phalanges2" 1.417339 -0.000000 0.000001 -0.273416 -1.910700 -1.257642 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_Finger22"		"Right Impudicus Phalanges3" 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_Finger21"		"Right Impudicus Phalanges2" 0.000000 0.000000 0.000001 -0.000000 -0.000000 0.000000 0.000000 0.000000 0.000001 -0.000000 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_R_Finger2"		"Right Impudicus Phalanges1" 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 0.000000
+$definebone		"Right Annularis Phalanges1"		"Right Hand" -5.159571 -0.940660 -0.082792 -0.877428 -174.239624 -86.902748 0.000000 0.000000 0.000001 -0.000001 -0.000000 0.000000
+$definebone		"Right Annularis Phalanges2"		"Right Annularis Phalanges1" 1.397345 -0.000620 -0.000340 -0.230960 0.417801 -1.701055 0.000000 -0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone		"Right Annularis Phalanges3"		"Right Annularis Phalanges2" 1.333055 -0.000000 0.000000 -1.435660 -0.607335 -0.392877 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger32"		"Right Annularis Phalanges3" 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger31"		"Right Annularis Phalanges2" 0.000000 -0.000000 0.000000 -0.000000 0.000000 -0.000000 0.000000 -0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger3"		"Right Annularis Phalanges1" 0.000000 0.000000 0.000001 -0.000001 -0.000000 0.000000 0.000000 0.000000 0.000001 -0.000001 -0.000000 0.000000
+$definebone		"Right Auricularis Phalanges1"		"Right Hand" -4.933987 -2.103932 0.163766 -0.942573 -166.863068 -87.708717 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone		"Right Auricularis Phalanges2"		"Right Auricularis Phalanges1" 1.144726 -0.000408 0.002884 3.261791 0.471544 -1.601876 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000
+$definebone		"Right Auricularis Phalanges3"		"Right Auricularis Phalanges2" 1.031168 0.000000 0.000000 -2.448937 -0.143583 -1.142363 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger42"		"Right Auricularis Phalanges3" 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger41"		"Right Auricularis Phalanges2" 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_R_Finger4"		"Right Auricularis Phalanges1" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone		"Right Polex Metacarpal"		"Right Hand" -0.411646 1.055815 0.093478 44.660168 -89.716431 -89.094307 0.000000 0.000000 0.000000 -0.000000 -0.000003 -0.000000
+$definebone		"Right Polex Phalange1"		"Right Polex Metacarpal" -0.436792 0.109571 -1.364326 48.019192 -165.497086 114.931892 0.000000 0.000002 0.000000 -0.000005 0.000000 0.000002
+$definebone		"Right Polex Phalange2"		"Right Polex Phalange1" 1.746109 0.005669 -0.000630 -0.371854 -3.348993 -2.481189 0.000000 0.000000 0.000000 -0.000003 0.000003 0.000003
+$definebone		"Right Polex Phalange3"			"Right Polex Phalange2" 1.441198 -0.001997 -0.005144 -6.876988 2.674683 5.135770 0.000000 0.000002 0.000000 -0.000005 0.000005 0.000009
+$definebone		"ValveBiped.Bip01_R_Finger02"		"Right Polex Phalange3" 0.000000 0.000002 0.000000 0.928244 1.727643 -126.069450 0.000000 0.000000 0.000000 -0.000000 -0.000005 -0.000003
+$definebone		"ValveBiped.Bip01_R_Finger01"		"Right Polex Phalange2" 0.000000 0.000000 0.000000 0.928244 1.727640 -126.069450 0.000000 0.000000 0.000002 -0.000001 -0.000002 -0.000009
+$definebone		"ValveBiped.Bip01_R_Finger0"		"Right Polex Phalange1" 0.000000 0.000002 0.000000 0.928243 1.727640 -126.069450 0.000000 0.000000 0.000000 0.000003 -0.000007 -0.000007
+$definebone		"ValveBiped.Bip01_R_Hand"		"Right Hand" 0.002054 -0.000060 -0.008102 9.999603 -179.935211 -89.931801 0.000000 0.000000 0.000000 -0.000000 0.000001 0.000000
+$definebone		"Left Hand"		"" 2.520586 -20.086529 -6.284324 0.309340 -89.581841 0.200764 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone		"Left Lower Arm 2"		"Left Hand" -0.003700 0.001340 0.000002 4.118822 179.118530 0.000000 0.000000 0.000000 0.000000 0.000001 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_L_SF"		"Left Lower Arm 2" 0.000000 0.000000 0.000000 -0.000001 179.999985 89.999985 0.000000 0.000000 0.000000 -0.000000 0.000001 0.000000
+$definebone		"ValveBiped.Bip01_L_Forearm"		"ValveBiped.Bip01_L_SF" -10.999998 -0.000000 0.000000 -0.000000 0.000001 -89.999931 0.000000 0.000000 0.000000 -0.000001 -0.000000 0.000000
+$definebone		"ValveBiped.Bip01_L_UpperArm"		"ValveBiped.Bip01_L_Forearm" -10.000001 0.000000 0.000000 -0.000001 -0.000000 0.000000 0.000000 0.000000 0.000000 -0.000001 -0.000000 0.000000
+$definebone		"Left Demonstratus Phalanges1"		"Left Hand" 5.306339 -1.396950 0.227723 4.564183 -5.408722 89.902977 0.000000 0.000000 0.000000 -0.000000 0.000001 -0.000000
+$definebone		"Left Demonstratus Phalanges2"		"Left Demonstratus Phalanges1" 1.408424 -0.000313 -0.003736 -1.523781 0.127255 -0.679012 0.000000 0.000000 0.000000 -0.000001 0.000001 0.000000
+$definebone		"Left Demonstratus Phalanges3"		"Left Demonstratus Phalanges2" 1.243889 0.000000 0.000000 1.906287 -0.394882 1.217191 0.000000 0.000000 0.000000 -0.000001 0.000001 0.000000
+$definebone		"ValveBiped.Bip01_L_Finger12"		"Left Demonstratus Phalanges3" 0.000000 0.000000 0.000000 -0.000001 0.000001 0.000000 0.000000 0.000000 0.000000 -0.000001 0.000001 0.000000
+$definebone		"ValveBiped.Bip01_L_Finger11"		"Left Demonstratus Phalanges2" 0.000000 0.000000 0.000000 -0.000001 0.000001 0.000000 0.000000 0.000000 0.000000 -0.000001 0.000001 0.000000
+$definebone		"ValveBiped.Bip01_L_Finger1"		"Left Demonstratus Phalanges1" 0.000000 0.000000 0.000000 -0.000000 0.000001 -0.000000 0.000000 0.000000 0.000000 -0.000000 0.000001 -0.000000
+$definebone		"Left Impudicus Phalanges1"		"Left Hand" 5.393637 -0.301322 0.310154 4.614087 0.186154 89.226891 0.000000 0.000000 0.000000 -0.000000 -0.000001 0.000000
+$definebone		"Left Impudicus Phalanges2"		"Left Impudicus Phalanges1" 1.518259 -0.000478 0.000038 0.034721 0.450803 0.871927 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"Left Impudicus Phalanges3"		"Left Impudicus Phalanges2" 1.385798 -0.000002 0.000000 -0.000000 -1.665933 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000001 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger22"		"Left Impudicus Phalanges3" 0.000000 0.000000 0.000000 -0.000000 -0.000001 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000001 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger21"		"Left Impudicus Phalanges2" 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger2"		"Left Impudicus Phalanges1" 0.000000 0.000000 0.000000 -0.000000 -0.000001 0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000001 0.000000
+$definebone		"Left Annularis Phalanges1"		"Left Hand" 5.285152 0.743978 0.085911 3.893363 6.235328 89.042915 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000
+$definebone		"Left Annularis Phalanges2"		"Left Annularis Phalanges1" 1.356100 0.000966 -0.003604 -2.114959 -0.569692 1.356019 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"Left Annularis Phalanges3"		"Left Annularis Phalanges2" 1.337330 -0.000000 0.000000 0.732125 -0.309054 -1.104319 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger32"		"Left Annularis Phalanges3" 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger31"		"Left Annularis Phalanges2" 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 -0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger3"		"Left Annularis Phalanges1" 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000001 -0.000000 -0.000000
+$definebone		"Left Auricularis Phalanges1"		"Left Hand" 4.905270 1.877646 -0.164937 -0.668413 10.637536 89.485748 0.000000 0.000000 0.000000 0.000001 0.000000 0.000000
+$definebone		"Left Auricularis Phalanges2"		"Left Auricularis Phalanges1" 1.203049 0.000164 -0.002326 -0.046409 -1.102141 0.765414 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone		"Left Auricularis Phalanges3"		"Left Auricularis Phalanges2" 1.101498 0.000000 0.000001 -0.317591 1.759153 -0.401643 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger42"		"Left Auricularis Phalanges3" 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 -0.000000
+$definebone		"ValveBiped.Bip01_L_Finger41"		"Left Auricularis Phalanges2" 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+$definebone		"ValveBiped.Bip01_L_Finger4"		"Left Auricularis Phalanges1" 0.000000 0.000000 0.000000 0.000001 0.000000 0.000000 0.000000 0.000000 0.000000 0.000001 0.000000 0.000000
+$definebone		"Left Polex Metacarpal"		"Left Hand" 0.439690 -1.198830 -0.088833 44.800659 -90.108498 90.437950 0.000000 0.000000 0.000000 -0.000000 0.000002 -0.000000
+$definebone		"Left Polex Phalange1"		"Left Polex Metacarpal" 0.645736 0.251210 -1.389101 51.101131 -11.870825 77.086433 0.000000 0.000000 0.000000 0.000002 -0.000001 -0.000003
+$definebone		"Left Polex Phalange2"		"Left Polex Phalange1" 1.737164 -0.004312 -0.001738 -1.638598 4.069032 -2.680985 0.000000 0.000000 0.000000 0.000002 0.000002 0.000000
+$definebone		"Left Polex Phalange3"		"Left Polex Phalange2" 1.349350 0.000671 0.001134 2.281863 -1.370170 -5.014011 0.000000 0.000000 0.000000 0.000003 -0.000002 -0.000003
+$definebone		"ValveBiped.Bip01_L_Finger02"		"Left Polex Phalange3" 0.000000 0.000000 0.000000 0.928251 1.727639 143.930557 0.000000 0.000000 -0.000000 -0.000002 0.000000 -0.000012
+$definebone		"ValveBiped.Bip01_L_Finger01"		"Left Polex Phalange2" 0.000000 0.000000 0.000000 0.928250 1.727640 143.930557 0.000000 0.000000 0.000000 0.000001 -0.000002 -0.000007
+$definebone		"ValveBiped.Bip01_L_Finger0"		"Left Polex Phalange1" 0.000000 0.000000 0.000000 0.928251 1.727638 143.930557 0.000000 -0.000001 -0.000000 -0.000003 0.000000 0.000002
+$definebone		"ValveBiped.Bip01_L_Hand"		"Left Hand" 0.002007 -0.000042 -0.008114 -9.999659 0.041425 89.923203 0.000000 0.000000 0.000000 -0.000000 -0.000001 0.000000
+
+$bonemerge "ValveBiped.Bip01_Spine4"
+$bonemerge "ValveBiped.Bip01_L_Clavicle"
+$bonemerge "ValveBiped.Bip01_L_UpperArm"
+$bonemerge "ValveBiped.Bip01_L_Forearm"
+$bonemerge "ValveBiped.Bip01_L_Hand"
+$bonemerge "ValveBiped.Bip01_L_Finger4"
+$bonemerge "ValveBiped.Bip01_L_Finger41"
+$bonemerge "ValveBiped.Bip01_L_Finger42"
+$bonemerge "ValveBiped.Bip01_L_Finger3"
+$bonemerge "ValveBiped.Bip01_L_Finger31"
+$bonemerge "ValveBiped.Bip01_L_Finger32"
+$bonemerge "ValveBiped.Bip01_L_Finger2"
+$bonemerge "ValveBiped.Bip01_L_Finger21"
+$bonemerge "ValveBiped.Bip01_L_Finger22"
+$bonemerge "ValveBiped.Bip01_L_Finger1"
+$bonemerge "ValveBiped.Bip01_L_Finger11"
+$bonemerge "ValveBiped.Bip01_L_Finger12"
+$bonemerge "ValveBiped.Bip01_L_Finger0"
+$bonemerge "ValveBiped.Bip01_L_Finger01"
+$bonemerge "ValveBiped.Bip01_L_Finger02"
+$bonemerge "ValveBiped.Bip01_R_Clavicle"
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+
+// Made for ArcCW FAS:2
+// You are clear to use this rig as long as you give credit
+// Please
+				// -- Fesiug
+
+// Version 1, 2020-25-09 17:06 EST
