@@ -281,12 +281,29 @@ SWEP.Animations = {
         EventTable = {
             {s = ARC9FAS.Deploy, t = 0 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 5 / 30},
-            {s = path .. "selectorswitch", t = 15 / 30},
+            {s = path .. "selectorswitch.wav", t = 15 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 15 / 30},
-            {s = path .. "selectorswitch", t = 18 / 30},
-            {s = path .. "selectorswitch", t = 24 / 30},
+            {s = path .. "selectorswitch.wav", t = 18 / 30},
+            {s = path .. "selectorswitch.wav", t = 24 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 24 / 30},
-        }
+        },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.6,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 1,
+                lhik = 1,
+                rhik = 1
+            },
+        },
     },
     ["idle"] = {
         Source = {

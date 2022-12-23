@@ -260,6 +260,7 @@ SWEP.CamCoolView = true
 -------------------------- SOUNDS
 
 local path = "^weapons/arc9_fas/m249/m249_"
+local m60path = "^weapons/arc9_fas/m60/m60_"
 local m16path = "^weapons/arc9_fas/m16a2/m16a2_"
 local common = "^weapons/arc9_fas/"
 
@@ -288,6 +289,21 @@ SWEP.Animations = {
         Source = "deploy",
         EventTable = {
             {s = ARC9FAS.Deploy, t = 0},
+        }
+    },
+    ["ready"] = {
+        HideBoneIndex = 1,
+        Source = "deploy_first02",
+        EventTable = {
+            {s = ARC9FAS.Deploy, t = 0},
+            {s = path .. "lidopen.wav", t = 10 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 10 / 30},
+            {s = m60path .. "feeding_mechanism.wav", t = 25 / 30},
+            {s = m60path .. "feeding_mechanism.wav", t = 35 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 35 / 30},
+            {s = m60path .. "feeding_tray.wav", t = 70 / 30},
+            {s = path .. "lidclose.wav", t = 100 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 100 / 30},
         }
     },
     ["holster"] = {

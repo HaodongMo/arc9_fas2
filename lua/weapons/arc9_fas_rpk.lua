@@ -280,6 +280,24 @@ SWEP.Animations = {
             {s = ARC9FAS.Deploy, t = 0},
         }
     },
+    ["ready"] = {
+        Source = "deploy_first",
+        MagSwapTime = 8 / 30,
+        EventTable = {
+            {s = path .. "deploy.wav", t = 0 / 30},
+            {s = ARC9FAS.MagPouch, t = 8 / 30},
+            {s = path .. "magin_partial.wav", t = 21 / 30},
+            {s = path .. "magin.wav", t = 26 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 26 / 30},
+            {s = path .. "bipod_open.wav", t = 49 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 49 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 77 / 30},
+            {s = ARC9FAS.Switch, t = 87 / 30},
+            {s = path .. "boltback.wav", t = 100 / 30},
+            {s = path .. "boltforward.wav", t = 106 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 100 / 30},
+        }
+    },
     ["holster"] = {
         HideBoneIndex = 1,
         Source = "holster",

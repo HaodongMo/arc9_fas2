@@ -276,10 +276,10 @@ SWEP.Animations = {
         EventTable = {
             {s = ARC9FAS.Deploy, t = 0 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 5 / 30},
-            {s = path .. "selectorswitch", t = 15 / 30},
+            {s = path .. "stockunfold.wav", t = 15 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 15 / 30},
-            {s = path .. "selectorswitch", t = 18 / 30},
-            {s = path .. "selectorswitch", t = 24 / 30},
+            {s = path .. "stockunfold.wav", t = 18 / 30},
+            {s = path .. "stockunfold.wav", t = 24 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 24 / 30},
         }
     },

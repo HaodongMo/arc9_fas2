@@ -260,6 +260,16 @@ SWEP.Animations = {
             {s = ARC9FAS.Deploy, t = 0},
         }
     },
+    ["ready"] = {
+        Source = "deploy_first",
+        EventTable = {
+            {s = ARC9FAS.Cloth_Movement, t = 0},
+            {s = ARC9FAS.Switch, t = 35 / 30},
+            {s = path .. "boltback.wav", t = 54 / 30},
+            {s = path .. "boltforward.wav", t = 62 / 30},
+            {s = ARC9FAS.Cloth_Movement, t = 54 / 30},
+        },
+    },
     ["holster"] = {
         HideBoneIndex = 1,
         Source = "holster",

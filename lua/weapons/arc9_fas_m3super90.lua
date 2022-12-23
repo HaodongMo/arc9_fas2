@@ -274,6 +274,14 @@ SWEP.Animations = {
             {s = ARC9FAS.Deploy, t = 0},
         }
     },
+    ["ready"] = {
+        Source = "deploy_first",
+        EventTable = {
+            {s = path .. "deploy.wav", t = 0},
+            {s = path .. "restock.wav", t = 30 / 30},
+            {s = path .. "restock.wav", t = 52 / 30},
+        }
+    },
     ["holster"] = {
         HideBoneIndex = 2,
         Source = "holster",
