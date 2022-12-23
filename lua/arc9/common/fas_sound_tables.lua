@@ -96,6 +96,7 @@ game.AddParticles( "particles/fas_explosions.pcf" )
 
 PrecacheParticleSystem( "explosion_grenade" )
 PrecacheParticleSystem( "explosion_m79" )
+PrecacheParticleSystem( "explosion_m79_body" )
 PrecacheParticleSystem( "m79_debris" )
 PrecacheParticleSystem( "grenade_flash" )
 PrecacheParticleSystem( "grenade_flash_c" )

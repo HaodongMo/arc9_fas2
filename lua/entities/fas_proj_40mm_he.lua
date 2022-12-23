@@ -24,7 +24,69 @@ ENT.LifeTime = 20
 ENT.ImpactDamage = nil
 ENT.ExplodeOnImpact = true
 
-function ENT:Detonate()
+function ENT:PhysicsCollide(colData, physobj)
+    if !self:IsValid() then return end
+
+    self.LastHitNormal = colData.HitNormal
+
+    if self.ExplodeOnImpact then
+        if CurTime() - self.SpawnTime < self.FuseTime then
+            if IsValid(colData.HitEntity) then
+                local v = colData.OurOldVelocity:Length() ^ 0.5
+                local dmg = DamageInfo()
+                dmg:SetAttacker(IsValid(self:GetOwner()) and self:GetOwner() or self)
+                dmg:SetInflictor(self)
+                dmg:SetDamageType(DMG_CRUSH)
+                dmg:SetDamage(v)
+                dmg:SetDamagePosition(colData.HitPos)
+                dmg:SetDamageForce(colData.OurOldVelocity)
+                colData.HitEntity:TakeDamageInfo(dmg)
+                self:EmitSound("weapons/rpg/shotdown.wav", 80, math.random(90, 110))
+            end
+            self:Defuse()
+            return
+        end
+
+        timer.Simple(0, function()  -- to prevent "Changing collision rules within a callback is likely to cause crashes!" errors
+            if !self:IsValid() then return end
+            self:EmitSound("")
+
+            self:GetPhysicsObject():EnableMotion(false)
+
+            if self:IsValid() then
+                self:SetCollisionGroup(COLLISION_GROUP_WEAPON)
+            end
+        end)
+
+        local effectdata = EffectData()
+            effectdata:SetOrigin( self:GetPos() )
+
+        -- simulate AP damage on vehicles, mainly simfphys
+        local tgt = colData.HitEntity
+        while IsValid(tgt) do
+            if tgt.GetParent and IsValid(tgt:GetParent()) then
+                tgt = tgt:GetParent()
+            elseif tgt.GetBaseEnt and IsValid(tgt:GetBaseEnt()) then
+                tgt = tgt:GetBaseEnt()
+            else
+                break
+            end
+        end
+    end
+
+    if self.ExplodeOnImpact then
+        self.HitPos = colData.HitPos
+        self.HitVelocity = colData.OurOldVelocity
+        self:Detonate(colData)
+    end
+end
+
+local badblood = {
+    [DONT_BLEED] = true,
+    [BLOOD_COLOR_MECH] = true
+}
+
+function ENT:Detonate(impact)
     if not self:IsValid() then return end
     if self.Defused then return end
     if self:WaterLevel() > 0 then
@@ -46,7 +108,15 @@ function ENT:Detonate()
 
         self:EmitSound("weapons/underwater_explode3.wav", 100)
     else
-        ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+        local blood = DONT_BLEED
+        if IsValid(impact.HitEntity) then
+            blood = impact.HitEntity:GetBloodColor()
+        end
+        if badblood[blood] then
+            ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+        else
+            ParticleEffect("explosion_m79_body", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+        end
 
         // Overpressure radius
         util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 64, 200)
