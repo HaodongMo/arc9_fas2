@@ -166,4 +166,44 @@ ATT.Penetration = 8
 ATT.RangeMinMult = 0.25
 ATT.RangeMaxMult = 1.5
 
-ARC9.LoadAttachment(ATT, "fas_ks23_ammo")
+ARC9.LoadAttachment(ATT, "fas_ks23_ammo_slug")
+
+ATT = {}
+
+ATT.PrintName = "23mm Zvezda Shell"
+ATT.CompactName = "ZVEZDA"
+ATT.Icon = Material("entities/arc9_att_fas_ammo_shotgun.png", "mips smooth")
+ATT.Description = [[Turns the gun into a portable flashbang dispenser. Instead of firing rounds, it simply produces a disorienting blast of light and sound.]]
+ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
+ATT.Category = "fas_ks23_ammo"
+
+ATT.Num = 0
+
+ATT.MuzzleParticle = "grenade_flash"
+
+ATT.Hook_PrimaryAttack = function(self)
+    local flashorigin = self:GetShootPos()
+    local flashpower = 1000
+    local targets = ents.FindInSphere(flashorigin, flashpower)
+
+    for _, k in pairs(targets) do
+        if k:IsPlayer() then
+            local dist = k:EyePos():Distance(flashorigin)
+            local dp = (k:EyePos() - flashorigin):Dot(k:EyeAngles():Forward())
+
+            local time = Lerp( dp, 1, 0.25 )
+
+            time = Lerp( dist / flashpower, time, 0 )
+
+            if k:VisibleVec( flashorigin ) and k != self:GetOwner() then
+                k:ScreenFade( SCREENFADE.IN, Color( 255, 255, 255, 255 ), 0.5, time )
+            else
+                k:ScreenFade( SCREENFADE.IN, Color( 255, 255, 255, 255 ), 0.25, 0 )
+            end
+
+            k:SetDSP( 37, false )
+        end
+    end
+end
+
+ARC9.LoadAttachment(ATT, "fas_ks23_ammo_stun")

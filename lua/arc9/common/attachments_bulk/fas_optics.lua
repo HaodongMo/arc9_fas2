@@ -335,7 +335,7 @@ ATT.Scale = 2
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.381686 * 2, 15, -2.03084 * 2),
+        Pos = Vector(-0.379 * 2, 15, -2.02 * 2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
         ViewModelFOV = 20
