@@ -81,9 +81,10 @@ function ENT:PhysicsCollide(colData, physobj)
     end
 end
 
-local badblood = {
-    [DONT_BLEED] = true,
-    [BLOOD_COLOR_MECH] = true
+local bloodmat = {
+    [MAT_BLOODYFLESH] = true,
+    [MAT_FLESH] = true,
+    [MAT_ANTLION] = true
 }
 
 function ENT:Detonate(impact)
@@ -108,14 +109,14 @@ function ENT:Detonate(impact)
 
         self:EmitSound("weapons/underwater_explode3.wav", 100)
     else
-        local blood = DONT_BLEED
+        local mat = MAT_DEFAULT
         if IsValid(impact.HitEntity) then
-            blood = impact.HitEntity:GetBloodColor()
+            mat = impact.HitEntity:GetMaterialType()
         end
-        if badblood[blood] then
-            ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-        else
+        if bloodmat[mat] then
             ParticleEffect("explosion_m79_body", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+        else
+            ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
         end
 
         // Overpressure radius
