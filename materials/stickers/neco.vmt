@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"stickers\neco"
+     "$alphatest"	"1"
+     "$decal"		"1"
+     "$nocull"		"1"
+}

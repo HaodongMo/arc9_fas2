@@ -61,6 +61,11 @@ $bodygroup "foregrip"
 	blank
 }
 
+/* $bodygroup "sticker"
+{
+    blank
+	studio "sticker_a.smd"
+} */
 
 $surfaceprop "default"
 
@@ -73,6 +78,7 @@ $cdmaterials "models\weapons\arc9_fas\view\support\sr25\"
 $cdmaterials "models\weapons\arc9_fas\view\hands\"
 $cdmaterials "models\weapons\arc9_fas\view\accessories\"
 $cdmaterials "models\weapons\arc9_fas\shells\"
+$cdmaterials "stickers\"
 
 $attachment "muzzle" "Dummy01" 13.5 0.6 0 rotate 0 0 0
 $attachment "ejector" "Dummy01" 2.25 0.75 0 rotate -60 50 -50

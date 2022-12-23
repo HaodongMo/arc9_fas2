@@ -580,7 +580,7 @@ SWEP.AttachmentElements = {
         Bodygroups = {
             {8, 1}
         }
-    }
+    },
 }
 
 SWEP.Hook_ModifyBodygroups = function(self, data)
@@ -680,5 +680,10 @@ SWEP.Attachments = {
         Bone = "Dummy01",
         Pos = Vector(4, 4, 0),
         Ang = Angle(0, 0, 0),
-    }
+    },
+    {
+        PrintName = "Stickers",
+        StickerModel = "models/weapons/stickers/m4a1_a.mdl",
+        Category = "stickers",
+    },
 }
