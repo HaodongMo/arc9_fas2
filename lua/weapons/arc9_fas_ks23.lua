@@ -230,6 +230,10 @@ SWEP.ShellSounds = ARC9.ShotgunShellSoundsTable
 
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
+SWEP.CamQCA = 1
+SWEP.CamQCA_Mult = 0.1
+SWEP.CamCoolView = true
+
 -------------------------- SOUNDS
 
 local path = "^weapons/arc9_fas/ks23/ks23_"

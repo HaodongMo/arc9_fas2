@@ -253,6 +253,10 @@ SWEP.ExtraShellModels = {
 
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
+SWEP.CamQCA = 1
+SWEP.CamQCA_Mult = 0.1
+SWEP.CamCoolView = true
+
 -------------------------- SOUNDS
 
 local path = "^weapons/arc9_fas/m60/m60_"
@@ -358,7 +362,7 @@ SWEP.Animations = {
     },
     ["enter_bipod"] = {
         HideBoneIndex = 1,
-        Source = "bipod_down"
+        Source = "bipod_dn"
     },
     ["exit_bipod"] = {
         HideBoneIndex = 1,

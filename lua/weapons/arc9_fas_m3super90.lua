@@ -223,6 +223,10 @@ SWEP.ShellSounds = ARC9.ShotgunShellSoundsTable
 
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
+SWEP.CamQCA = 1
+SWEP.CamQCA_Mult = 0.1
+SWEP.CamCoolView = true
+
 SWEP.ExtraShellModels = {
     [1] = {
         model = "models/weapons/arc9_fas/shells/12g_wad.mdl",

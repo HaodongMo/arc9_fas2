@@ -231,6 +231,10 @@ SWEP.CaseEffectQCA = 3
 
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
+SWEP.CamQCA = 1
+SWEP.CamQCA_Mult = 0.1
+SWEP.CamCoolView = true
+
 SWEP.Silencer = true
 
 -------------------------- SOUNDS

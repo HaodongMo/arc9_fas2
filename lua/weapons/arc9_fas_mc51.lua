@@ -240,6 +240,10 @@ SWEP.ExtraShellModels = {
 
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
+SWEP.CamQCA = 1
+SWEP.CamQCA_Mult = 0.1
+SWEP.CamCoolView = true
+
 -------------------------- SOUNDS
 
 local path = "^weapons/arc9_fas/vollmer/vollmer_"
@@ -370,7 +374,12 @@ SWEP.BulletBones = {
     [8] = "dummy17"
 }
 
-SWEP.HideBones = {}
+SWEP.HideBones = {
+    "Bone11",
+    "Bone12",
+    "Bone10",
+    "Dummy19"
+}
 
 SWEP.ReloadHideBoneTables = {
 }
