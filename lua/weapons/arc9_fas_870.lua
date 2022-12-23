@@ -295,13 +295,13 @@ SWEP.Animations = {
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0 / 33},
             {s = ARC9FAS.Switch, t = 31 / 33},
-            {s = ARC9FAS.Cloth_Movement, 31 / 33},
-            {s = path .. "pump_back1.wav", 68 / 33},
-            {s = ARC9FAS.Cloth_Movement, 68 / 33},
-            {s = path .. "pump_forward.wav1", 103 / 33},
-            {s = ARC9FAS.Cloth_Movement, 103 / 33},
-            {s = path .. "insert1.wav", 189 / 33},
-            {s = ARC9FAS.Cloth_Movement, 189 / 33},
+            {s = ARC9FAS.Cloth_Movement, t = 31 / 33},
+            {s = path .. "pump_back1.wav", t = 68 / 33},
+            {s = ARC9FAS.Cloth_Movement, t = 68 / 33},
+            {s = path .. "pump_forward1.wav", t = 103 / 33},
+            {s = ARC9FAS.Cloth_Movement, t = 103 / 33},
+            {s = path .. "insert1.wav", t = 189 / 33},
+            {s = ARC9FAS.Cloth_Movement, t = 189 / 33},
         }
     },
     ["fire"] = {
