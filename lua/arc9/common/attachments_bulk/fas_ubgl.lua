@@ -97,4 +97,6 @@ ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 ATT.ModelOffset = Vector(0, 0, 1)
 ATT.ModelAngleOffset = Angle(0, 180, 0)
 
+ATT.ShootAngOffsetUBGL = Angle(20, 0, 0)
+
 ARC9.LoadAttachment(ATT, "fas_ubgl_m203")
