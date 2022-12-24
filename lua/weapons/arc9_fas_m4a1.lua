@@ -320,6 +320,9 @@ SWEP.Animations = {
         Source = "idle_empty",
         Mult = 3
     },
+    ["idle"] = {
+        Source = "idle"
+    },
     ["idle_iron"] = {
         Source = "idle_scoped"
     },

@@ -16,8 +16,8 @@ ENT.PhysMat = "grenade"
 
 ENT.SmokeTrail = true
 ENT.SmokeTrailMat = "effects/fas_smoke_beam"
-ENT.SmokeTrailSize = 6
-ENT.SmokeTrailTime = 1
+ENT.SmokeTrailSize = 10
+ENT.SmokeTrailTime = 5
 
 ENT.LifeTime = 20
 
@@ -90,56 +90,27 @@ local bloodmat = {
 function ENT:Detonate(impact)
     if not self:IsValid() then return end
     if self.Defused then return end
-    if self:WaterLevel() > 0 then
-        local tr = util.TraceLine({
-            start = self:GetPos(),
-            endpos = self:GetPos() + Vector(0, 0, 1) * 1024,
-            filter = self,
-        })
-        local tr2 = util.TraceLine({
-            start = tr.HitPos,
-            endpos = self:GetPos(),
-            filter = self,
-            mask = MASK_WATER
-        })
-        ParticleEffect("explosion_water", tr2.HitPos + Vector(0, 0, 8), Angle(0, 0, 0), nil)
-
-        // Overpressure radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 250, 200)
-
-        self:EmitSound("weapons/underwater_explode3.wav", 100)
-    else
-        if impact.TheirSurfaceProps == 126 then
-            ParticleEffect("explosion_m79_body", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-        else
-            ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-        end
-
-        // Overpressure radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 100, 200)
-        // Shrapnel radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 512, 50)
-
-        self:EmitSound("weapons/arc9_fas/explosive_m79/m79_explode1.wav", 130)
-    end
 
     if SERVER then
         local dir = self.HitVelocity or self:GetVelocity()
 
         self:FireBullets({
             Attacker = self,
-            Damage = 0,
+            Damage = 100,
             Tracer = 0,
             Distance = 256,
             Dir = dir,
             Src = self:GetPos(),
             Callback = function(att, tr, dmg)
                 if self.Scorch then
-                    util.Decal("Scorch", tr.StartPos, tr.HitPos - (tr.HitNormal * 16), self)
+                    util.Decal("PaintSplatBlue", tr.StartPos, tr.HitPos - (tr.HitNormal * 16), self)
                 end
             end
         })
     end
+
+    self:EmitSound("phx/eggcrack.wav")
+
     self.Defused = true
 
     SafeRemoveEntityDelayed(self, self.SmokeTrailTime)

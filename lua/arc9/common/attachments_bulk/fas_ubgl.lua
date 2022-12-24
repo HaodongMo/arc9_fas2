@@ -99,4 +99,14 @@ ATT.ModelAngleOffset = Angle(0, 180, 0)
 
 ATT.ShootAngOffsetUBGL = Angle(20, 0, 0)
 
+ATT.Attachments = {
+    {
+        PrintName = "AMMO",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Category = "fas_ammo_ubgl_grenade",
+        Icon_Offset = Vector(-2, 0, 2),
+    }
+}
+
 ARC9.LoadAttachment(ATT, "fas_ubgl_m203")

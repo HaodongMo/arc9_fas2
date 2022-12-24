@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 ENT.Type 				= "anim"
 ENT.Base 				= "arc9_proj_base"
-ENT.PrintName 			= "40mm HE"
+ENT.PrintName 			= "40mm 3GL"
 
 ENT.Spawnable 			= false
 ENT.CollisionGroup = COLLISION_GROUP_PROJECTILE
@@ -105,22 +105,28 @@ function ENT:Detonate(impact)
         ParticleEffect("explosion_water", tr2.HitPos + Vector(0, 0, 8), Angle(0, 0, 0), nil)
 
         // Overpressure radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 250, 200)
+        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 250, 50)
 
         self:EmitSound("weapons/underwater_explode3.wav", 100)
     else
         if impact.TheirSurfaceProps == 126 then
             ParticleEffect("explosion_m79_body", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
         else
-            ParticleEffect("explosion_m79", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("m79_debris", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("claymore_fastsmoke", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("grenade_flash", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("grenade_smoke", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("grenade_shockwave", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("claymore_dustwave", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("claymore_smoke_b", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
         end
 
         // Overpressure radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 100, 200)
+        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 100, 50)
         // Shrapnel radius
-        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 512, 50)
+        util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 512, 15)
 
-        self:EmitSound("weapons/arc9_fas/explosive_m79/m79_explode1.wav", 130)
+        self:EmitSound("weapons/arc9_fas/explosive_m79/m79_explode1.wav", 110, 110)
     end
 
     if SERVER then

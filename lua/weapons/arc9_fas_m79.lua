@@ -262,6 +262,13 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
     {
+        PrintName = "AMMO",
+        Category = "fas_ammo_grenade",
+        Bone = "m79_frame",
+        Pos = Vector(0, 2, 0),
+        Ang = Angle(0, 0, 0),
+    },
+    {
         PrintName = "PERK",
         Category = "fas_perk",
         Bone = "m79_frame",
@@ -269,3 +276,5 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
 }
+
+SWEP.ReloadTimeMult = 0.1
