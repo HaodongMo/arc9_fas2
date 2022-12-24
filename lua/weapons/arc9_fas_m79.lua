@@ -276,5 +276,3 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
 }
-
-SWEP.ReloadTimeMult = 0.1
