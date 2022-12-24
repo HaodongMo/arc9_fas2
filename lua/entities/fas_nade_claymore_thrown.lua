@@ -11,7 +11,9 @@ ENT.Model = "models/weapons/arc9_fas/explosives/w_claymore.mdl"
 ENT.SphereSize = 4
 ENT.PhysMat = "grenade"
 
-ENT.LifeTime = 500000
+ENT.FuseTime = 100000
+ENT.LifeTime = 100000
+ENT.ExplodeOnImpact = false
 
 ENT.Rope = nil
 
@@ -80,7 +82,7 @@ function ENT:Think()
         SafeRemoveEntity(self)
     end
 
-    if !IsValid(self.Rope) then
+    if !IsValid(self.Rope) and SERVER then
         self:Detonate()
     end
 end
@@ -98,10 +100,8 @@ end
 function ENT:Detonate()
     if self.Detonated then return end
     self.Detonated = true
-    if SERVER then
-        if !self:IsValid() then return end
-        local effectdata = EffectData()
-            effectdata:SetOrigin( self:GetPos() )
+
+    if !self:IsValid() then return end
 
         if self:WaterLevel() > 0 then
             local tr = util.TraceLine({
@@ -123,6 +123,8 @@ function ENT:Detonate()
 
             self:EmitSound("weapons/arc9_fas/explosive_claymore/claymore_explode_1.wav", 130)
         end
+
+    if SERVER then
 
         util.BlastDamage(self, IsValid(self:GetOwner()) and self:GetOwner() or self, self:GetPos(), 256, 50)
 
