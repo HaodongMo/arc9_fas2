@@ -513,5 +513,10 @@ SWEP.Attachments = {
         Bone = "frame",
         Pos = Vector(0, -4, 0.5),
         Ang = Angle(180, 0, 90),
-    }
+    },
+    {
+        PrintName = "Stickers",
+        StickerModel = "models/weapons/stickers/g3_a.mdl",
+        Category = "stickers",
+    },
 }

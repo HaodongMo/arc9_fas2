@@ -420,5 +420,10 @@ SWEP.Attachments = {
         Bone = "FrameBone",
         Pos = Vector(0, 1, 8),
         Ang = Angle(0, 0, 0),
-    }
+    },
+    {
+        PrintName = "Stickers",
+        StickerModel = "models/weapons/stickers/bizon_a.mdl",
+        Category = "stickers",
+    },
 }
