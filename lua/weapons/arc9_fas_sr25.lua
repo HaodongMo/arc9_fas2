@@ -357,12 +357,14 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
+            {s = ARC9FAS.Switch, t = 9 / 30},
             {s = path .. "magout.wav", t = 16 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 16 / 30},
             {s = ARC9FAS.MagPouch, t = 39 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 44 / 30},
             {s = path .. "magin.wav", t = 61 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 61 / 30},
+            {s = ARC9FAS.Switch, t = 70 / 30},
         },
     },
     ["reload_empty"] = {
@@ -370,6 +372,7 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
+            {s = ARC9FAS.Switch, t = 9 / 30},
             {s = path .. "magout_empty.wav", t = 14 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 14 / 30},
             {s = ARC9FAS.MagPouch, t = 29 / 30},
@@ -377,6 +380,7 @@ SWEP.Animations = {
             {s = ARC9FAS.Cloth_Movement, t = 47 / 30},
             {s = path .. "boltcatch.wav", t = 63 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 63 / 30},
+            {s = ARC9FAS.Switch, t = 70 / 30},
         },
     },
     ["reload_proficient"] = {
@@ -611,5 +615,12 @@ SWEP.Attachments = {
         Bone = "Dummy01",
         Pos = Vector(4, 4, 0),
         Ang = Angle(0, 0, 0),
-    }
+    },
+    {
+        PrintName = "CHARM",
+        Category = "charm",
+        Bone = "Dummy01",
+        Pos = Vector(6, -1.25, -0.9),
+        Ang = Angle(0, 0, -90),
+    },
 }

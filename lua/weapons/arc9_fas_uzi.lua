@@ -195,7 +195,7 @@ SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, -4, 0)
 
 SWEP.ViewModelFOVBase = 55
-SWEP.ActivePos = Vector(0, 0, -1)
+SWEP.ActivePos = Vector(0, 0, 0.5)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CrouchPos = Vector(-1, -3, -3)
@@ -418,6 +418,13 @@ SWEP.Attachments = {
         Category = "fas_ammo_bullet",
         Bone = "frame",
         Pos = Vector(0, 0, -2),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "CHARM",
+        Category = "charm",
+        Bone = "frame",
+        Pos = Vector(-6, -0.78, 1.9),
         Ang = Angle(0, 0, 0),
     },
     {
