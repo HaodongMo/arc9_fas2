@@ -1,0 +1,17 @@
+"unlitgeneric"
+{
+	"$basetexture"	"stickers/eye"
+     "$alphatest"	"1"
+     "$decal"		"1"
+     "$nocull"		"1"
+	 "$selfillum" "1"
+     "Proxies"
+	{
+	"AnimatedTexture"
+	{
+	"animatedTextureVar" "$basetexture"
+	"animatedTextureFrameNumVar" "$frame"
+	"animatedTextureFrameRate" "30"
+	}
+   }
+}

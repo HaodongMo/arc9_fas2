@@ -315,8 +315,8 @@ SWEP.Animations = {
         Source = "pump02",
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
-            {s = PumpBack, t = 5 / 40},
-            {s = PumpForward, t = 11 / 40},
+            {s = PumpBack, t = 0 / 30},
+            {s = PumpForward, t = 11 / 30},
         }
     },
     ["cycle_iron"] = {
