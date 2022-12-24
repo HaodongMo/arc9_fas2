@@ -1,6 +1,6 @@
 ARC9FAS = {}
 
-local common = "^weapons/arc9_fas/"
+local common = "weapons/arc9_fas/"
 
 ARC9FAS.Cloth_Movement = {
     common .. "handling/generic_cloth_movement1.wav",

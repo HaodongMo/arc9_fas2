@@ -240,12 +240,12 @@ SWEP.CamCoolView = true
 
 -------------------------- SOUNDS
 
-local path = "^weapons/arc9_fas/m16a2/m16a2_"
-local common = "^weapons/arc9_fas/"
+local path = "weapons/arc9_fas/m16a2/m16a2_"
+local common = "weapons/arc9_fas/"
 
 
 SWEP.ShootSound = path .. "fire1.wav"
-SWEP.DistantShootSound = path .. "distance_fire1.wav"
+SWEP.DistantShootSound = "^" .. path .. "distance_fire1.wav"
 SWEP.ShootSoundSilenced = path .. "suppressed_fire1.wav"
 SWEP.DryFireSound = common .. "empty_assaultrifles.wav"
 

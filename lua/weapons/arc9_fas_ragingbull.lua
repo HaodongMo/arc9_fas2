@@ -231,12 +231,12 @@ SWEP.ShellSmoke = false
 
 -------------------------- SOUNDS
 
-local path = "^weapons/arc9_fas/ragingbull/ragingbull_"
-local common = "^weapons/arc9_fas/"
+local path = "weapons/arc9_fas/ragingbull/ragingbull_"
+local common = "weapons/arc9_fas/"
 
 
 SWEP.ShootSound = path .. "fire1.wav"
-SWEP.DistantShootSound = path .. "distance_fire1.wav"
+SWEP.DistantShootSound = "^" .. path .. "distance_fire1.wav"
 SWEP.ShootSoundSilenced = common .. "sr25/sr25_suppressed_fire1.wav"
 
 SWEP.TriggerDownSound = common .. "empty/triggerpull_pistol.wav"

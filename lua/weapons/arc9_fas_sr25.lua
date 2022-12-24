@@ -239,8 +239,8 @@ SWEP.Silencer = true
 
 -------------------------- SOUNDS
 
-local path = "^weapons/arc9_fas/sr25/sr25_"
-local common = "^weapons/arc9_fas/"
+local path = "weapons/arc9_fas/sr25/sr25_"
+local common = "weapons/arc9_fas/"
 
 
 SWEP.ShootSound = path .. "fire1.wav"

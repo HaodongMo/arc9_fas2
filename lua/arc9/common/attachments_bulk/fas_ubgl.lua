@@ -16,8 +16,8 @@ ATT.LHIK = true
 
 ATT.MuzzleDeviceUBGL = true
 
-local path = "^weapons/arc9_fas/explosive_m79/m79_"
-local common = "^weapons/arc9_fas/"
+local path = "weapons/arc9_fas/explosive_m79/m79_"
+local common = "weapons/arc9_fas/"
 
 ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {

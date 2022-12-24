@@ -133,8 +133,8 @@ SWEP.AnimDraw = false
 
 -------------------------- SOUNDS
 
-local path = "^weapons/arc9_fas/melee/"
-local common = "^weapons/arc9_fas/"
+local path = "weapons/arc9_fas/melee/"
+local common = "weapons/arc9_fas/"
 
 SWEP.MeleeHitSound = {
     path .. "knife_hit1.wav",

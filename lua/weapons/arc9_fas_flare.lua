@@ -127,8 +127,8 @@ SWEP.AnimDraw = false
 
 -------------------------- SOUNDS
 
-local path = "^weapons/arc9_fas/explosive_m67/m67_"
-local common = "^weapons/arc9_fas/"
+local path = "weapons/arc9_fas/explosive_m67/m67_"
+local common = "weapons/arc9_fas/"
 
 SWEP.Animations = {
     ["idle"] = {
