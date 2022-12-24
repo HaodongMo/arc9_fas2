@@ -38,18 +38,16 @@ function ENT:Detonate()
         self:EmitSound("weapons/underwater_explode3.wav", 100)
     else
         ParticleEffect("smoke_plume", self:GetPos(), Angle(0, 0, 0), nil)
-        ParticleEffect("grenade_flash", self:GetPos(), Angle(0, 0, 0), nil)
-        ParticleEffect("grenade_flash_c", self:GetPos(), Angle(0, 0, 0), nil)
         ParticleEffect("grenade_smoke", self:GetPos(), Angle(0, 0, 0), nil)
         ParticleEffect("grenade_smoke_b", self:GetPos(), Angle(0, 0, 0), nil)
         ParticleEffect("grenade_shockwave", self:GetPos(), Angle(0, 0, 0), nil)
         ParticleEffect("grenade_shockwave_b", self:GetPos(), Angle(0, 0, 0), nil)
+        ParticleEffect("he_flares", self:GetPos(), Angle(0, 0, 0), nil)
 
         self:EmitSound("weapons/arc9_fas/flashbang/flashbang_explode1.wav", 130)
     end
 
     local flashorigin = self:GetPos()
-
     local flashpower = 1500
     local targets = ents.FindInSphere(flashorigin, flashpower)
 
