@@ -2,7 +2,7 @@ $modelname "ak74_a.mdl"
 $scale 2
 $bodygroup "studio"
 {
-	studio "sticker_a.smd"
+	studio "sticker_b.smd"
 }
 
 
