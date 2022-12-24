@@ -371,7 +371,7 @@ SWEP.Attachments = {
         PrintName = "MUZZLE",
         Category = "fas_supp_pistol",
         Bone = "Frame",
-        Pos = Vector(5.05, 0.3, 2.6),
+        Pos = Vector(4.93, 0.3, 2.6),
         Ang = Angle(0, 0, -90),
     },
     {

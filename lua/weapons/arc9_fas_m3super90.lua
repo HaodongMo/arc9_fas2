@@ -453,14 +453,14 @@ SWEP.Attachments = {
         PrintName = "MUZZLE",
         Category = "fas_supp_shotgun",
         Bone = "Dummy01",
-        Pos = Vector(41, -0.8, 0),
+        Pos = Vector(41, -0.8, 0) * 0.75,
         Ang = Angle(0, 0, -90),
     },
     {
         PrintName = "OPTIC",
         Category = "fas_optic",
         Bone = "Dummy01",
-        Pos = Vector(9, -2.3, 0),
+        Pos = Vector(9, -2.3, 0) * 0.75,
         Ang = Angle(0, 0, -90),
         InstalledElements = {"rail"}
     },
@@ -468,7 +468,7 @@ SWEP.Attachments = {
         PrintName = "RAIL",
         Category = "fas_barrel_rail",
         Bone = "Dummy01",
-        Pos = Vector(23, -1, 0),
+        Pos = Vector(23, -1, 0) * 0.75,
         Ang = Angle(0, 0, -90),
         ExtraSightDistance = 10
     },
@@ -476,9 +476,9 @@ SWEP.Attachments = {
         PrintName = "AMMO",
         Category = "fas_ammo_shotgun",
         Bone = "Bone27",
-        Pos = Vector(-0.25, 0, 0),
+        Pos = Vector(-0.25, 0, 0) * 0.75,
         Ang = Angle(0, 90, 90),
-        Scale = 2,
+        Scale = 1.5,
         DuplicateModels = {
             {
                 Bone = "Bone01",
@@ -495,27 +495,27 @@ SWEP.Attachments = {
             {
                 Bone = "Bone25",
                 Ang = Angle(25, 90, 90),
-                Pos = Vector(-0.5, 0, 0),
+                Pos = Vector(-0.5, 0, 0) * 0.75,
             },
             {
                 Bone = "Bone23",
                 Ang = Angle(162, 90, 90),
-                Pos = Vector(-0.45, 0, 0),
+                Pos = Vector(-0.45, 0, 0) * 0.75,
             },
             {
                 Bone = "Bone21",
                 Ang = Angle(-124, 90, 90),
-                Pos = Vector(-0.35, 0, 0),
+                Pos = Vector(-0.35, 0, 0) * 0.75,
             },
             {
                 Bone = "Bone19",
                 Ang = Angle(-51, 90, 90),
-                Pos = Vector(-0.45, 0, 0),
+                Pos = Vector(-0.45, 0, 0) * 0.75,
             },
             {
                 Bone = "Bone17",
                 Ang = Angle(82, 90, 90),
-                Pos = Vector(-0.35, 0, 0),
+                Pos = Vector(-0.35, 0, 0) * 0.75,
             },
         }
     },
