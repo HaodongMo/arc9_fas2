@@ -86,6 +86,7 @@ function ENT:Think()
 end
 
 ENT.AntiRecurse = false
+ENT.Detonated = false
 
 function ENT:OnTakeDamage(dmg)
     if self.AntiRecurse then return end
@@ -95,6 +96,8 @@ function ENT:OnTakeDamage(dmg)
 end
 
 function ENT:Detonate()
+    if self.Detonated then return end
+    self.Detonated = true
     if SERVER then
         if !self:IsValid() then return end
         local effectdata = EffectData()
