@@ -33,8 +33,8 @@ SWEP.Slot = 2
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
     Pos = Vector(-16, 4, -4),
-    TPIKPos = Vector(-24, -3, 8),
-    Ang = Angle(-5, -10, 180),
+    TPIKPos = Vector(-15, 3, 3),
+    Ang = Angle(-5, 0, 180),
     Scale = 0.75
 }
 SWEP.NoTPIKVMPos = true
@@ -199,15 +199,15 @@ SWEP.BipodPos = Vector(0, 0, 0)
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "revolver"
+SWEP.HoldType = "ar2"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
-SWEP.HoldTypeSights = "revolver"
+SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
-SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
+SWEP.AnimReload = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
