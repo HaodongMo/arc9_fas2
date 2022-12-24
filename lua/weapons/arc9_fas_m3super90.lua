@@ -170,7 +170,7 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-4.525, -10, 3.4),
+    Pos = Vector(-4.525, -10, 3.4) * 0.75,
     Ang = Angle(0, 0, 0),
     Midpoint = { -- Where the gun should be at the middle of it's irons
         Pos = Vector(-4, 0, -8),
@@ -183,7 +183,7 @@ SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, -4, 0)
 
 SWEP.ViewModelFOVBase = 55
-SWEP.ActivePos = Vector(0, 0, -1)
+SWEP.ActivePos = Vector(0, 0, 1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
 SWEP.CrouchPos = Vector(-1, -3, -3)
@@ -525,5 +525,12 @@ SWEP.Attachments = {
         Bone = "Dummy01",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "CHARM",
+        Category = "charm",
+        Bone = "Dummy01",
+        Pos = Vector(0.5, -0.75, -0.75),
+        Ang = Angle(0, 0, -90),
     },
 }

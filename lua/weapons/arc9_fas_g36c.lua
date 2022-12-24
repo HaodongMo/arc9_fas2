@@ -579,5 +579,12 @@ SWEP.Attachments = {
         Bone = "Dummy01",
         Pos = Vector(4, 4, 0),
         Ang = Angle(0, 0, 0),
-    }
+    },
+    {
+        PrintName = "CHARM",
+        Category = "charm",
+        Bone = "Dummy01",
+        Pos = Vector(7, 0, -0.85),
+        Ang = Angle(0, 0, -90),
+    },
 }

@@ -444,7 +444,14 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Stickers",
+        PrintName = "CHARM",
+        Category = "charm",
+        Bone = "glock_main",
+        Pos = Vector(0.65, 2.7, 0.5),
+        Ang = Angle(0, -90, 0),
+    },
+    {
+        PrintName = "STICKER",
         StickerModel = "models/weapons/stickers/glock_a.mdl",
         Category = "stickers",
     },

@@ -619,6 +619,13 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
+        PrintName = "CHARM",
+        Category = "charm",
+        Bone = "famas",
+        Pos = Vector(-2.7, 26, -1),
+        Ang = Angle(0, -90, 0),
+    },
+    {
         PrintName = "STICKER",
         StickerModel = "models/weapons/stickers/famas_a.mdl",
         Category = "stickers",
