@@ -1,8 +1,8 @@
-$modelname "ak47_a.mdl"
+$modelname "glock_a.mdl"
 $scale 2
 $bodygroup "studio"
 {
-	studio "sticker_b.smd"
+	studio "sticker_a.smd"
 }
 
 
