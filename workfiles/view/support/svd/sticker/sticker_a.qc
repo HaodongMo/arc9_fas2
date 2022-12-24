@@ -1,5 +1,5 @@
-$modelname "870_a.mdl"
-$scale 1.5
+$modelname "svd_a.mdl"
+$scale 2
 $bodygroup "studio"
 {
 	studio "sticker_a.smd"

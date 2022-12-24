@@ -402,5 +402,10 @@ SWEP.Attachments = {
         Bone = "SVD Receiver",
         Pos = Vector(-6, 1, 0),
         Ang = Angle(0, 0, 0),
-    }
+    },
+    {
+        PrintName = "STICKER",
+        StickerModel = "models/weapons/stickers/svd_a.mdl",
+        Category = "stickers",
+    },
 }
