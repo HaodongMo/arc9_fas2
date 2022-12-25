@@ -242,6 +242,7 @@ SWEP.ShellModel = "models/weapons/arc9_fas/shells/7_62x51mm.mdl"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
+SWEP.CaseEffectQCA = 2
 
 SWEP.ExtraShellModels = {
     [1] = {
