@@ -43,6 +43,7 @@ function ENT:Detonate()
         ParticleEffect("grenade_shockwave", self:GetPos(), Angle(0, 0, 0), nil)
         ParticleEffect("grenade_shockwave_b", self:GetPos(), Angle(0, 0, 0), nil)
         ParticleEffect("he_flares", self:GetPos(), Angle(0, 0, 0), nil)
+        ParticleEffect("explosion_lensflare", self:GetPos(), Angle(0, 0, 0), nil)
 
         self:EmitSound("weapons/arc9_fas/flashbang/flashbang_explode1.wav", 130)
     end
