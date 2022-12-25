@@ -83,7 +83,7 @@ SWEP.ReloadInSights = true -- This weapon can aim down sights while reloading.
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 10000
+SWEP.RPM = 400
 
 SWEP.Firemodes = {
     {

@@ -247,10 +247,12 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 SWEP.ExtraShellModels = {
     [1] = {
         model = "models/weapons/arc9_fas/shells/m27_link.mdl",
-        physbox = Vector(1, 1, 1)
+        physbox = Vector(1, 1, 1),
+        smoke = false
     },
     [2] = {
         model = "models/weapons/arc9_fas/shells/m27_starter.mdl",
+        smoke = false
     }
 }
 
