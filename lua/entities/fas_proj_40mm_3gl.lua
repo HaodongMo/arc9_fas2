@@ -112,13 +112,12 @@ function ENT:Detonate(impact)
         if impact.TheirSurfaceProps == 126 then
             ParticleEffect("explosion_m79_body", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
         else
-            ParticleEffect("m79_debris", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-            ParticleEffect("claymore_fastsmoke", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-            ParticleEffect("grenade_flash", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-            ParticleEffect("grenade_smoke", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-            ParticleEffect("grenade_shockwave", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-            ParticleEffect("claymore_dustwave", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
-            ParticleEffect("claymore_smoke_b", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("m79_shrapnel", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("m79_smoke_e", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("m79_trails_c", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("m79_shockwave", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("m79_flash", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
+            ParticleEffect("explosion_lensflare", self:GetPos(), (-self.LastHitNormal):Angle(), nil)
         end
 
         // Overpressure radius

@@ -19,7 +19,7 @@ ATT.DamageMaxMult = 0.1
 
 ATT.ExplosionDamage = 40
 ATT.ExplosionRadius = 128
-ATT.ExplosionEffect = "helicoptermegabomb"
+ATT.ExplosionEffect = "fas_he_slug"
 ATT.ImpactDecal = "smallscorch"
 ATT.ImpactSound = "phx/explode00.wav"
 
