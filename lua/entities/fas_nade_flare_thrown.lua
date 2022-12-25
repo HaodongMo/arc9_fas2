@@ -77,7 +77,7 @@ if SERVER then
                     })
                     local tr2 = util.TraceLine({
                         start = trw.HitPos,
-                        endpos = shelltr,
+                        endpos = burstpos,
                         filter = self,
                         mask = MASK_WATER
                     })
