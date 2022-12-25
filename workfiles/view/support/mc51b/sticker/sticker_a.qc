@@ -1,4 +1,4 @@
-$modelname "mc51b_a.mdl"
+$modelname "weapons/stickers/mc51b_a.mdl"
 $scale 2
 $bodygroup "studio"
 {

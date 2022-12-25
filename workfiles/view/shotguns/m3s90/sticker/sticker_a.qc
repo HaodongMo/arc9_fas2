@@ -1,5 +1,5 @@
-$modelname "m3_a.mdl"
-$scale 2
+$modelname "weapons/stickers/m3_a.mdl"
+$scale 1.5
 $bodygroup "studio"
 {
 	studio "sticker_a.smd"
