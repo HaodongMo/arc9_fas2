@@ -597,4 +597,9 @@ SWEP.Attachments = {
         Pos = Vector(0.5, -5.5, 4.75),
         Ang = Angle(0, -90, 0),
     },
+    {
+        PrintName = "STICKER",
+        StickerModel = "models/weapons/stickers/m16_a.mdl",
+        Category = "stickers",
+    },
 }
