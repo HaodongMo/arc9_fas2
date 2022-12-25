@@ -34,7 +34,7 @@ SWEP.Slot = 2
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-10, 4, -6),
+    Pos = Vector(-19, 5, -8),
     TPIKPos = Vector(-10, 4, -6),
     Ang = Angle(-5, 0, 180),
     Scale = 0.75

@@ -33,7 +33,7 @@ SWEP.Slot = 4
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-10, 4, -6),
+    Pos = Vector(-13, 4, -8),
     TPIKPos = Vector(-16, 4, -6),
     Ang = Angle(-5, 0, 180),
     Scale = 0.75
@@ -233,11 +233,13 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 SWEP.ExtraShellModels = {
     [1] = {
         model = "models/weapons/arc9_fas/shells/link_mc51.mdl",
-        physbox = Vector(1, 1, 1)
+        physbox = Vector(1, 1, 1),
+        smoke = false
     },
     [2] = {
         model = "models/weapons/arc9_fas/shells/link_mc51_start.mdl",
-        physbox = Vector(1, 1, 1)
+        physbox = Vector(1, 1, 1),
+        smoke = false
     },
 }
 

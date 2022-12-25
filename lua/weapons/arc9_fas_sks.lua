@@ -32,9 +32,9 @@ SWEP.Slot = 3
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-14, 5, -7),
+    Pos = Vector(-12, 5, -6),
     TPIKPos = Vector(-9, 2, -4),
-    Ang = Angle(-5, 0, 180),
+    Ang = Angle(-10, 0, 180),
     Scale = 0.75
 }
 SWEP.NoTPIKVMPos = true
@@ -251,11 +251,13 @@ SWEP.BulletBones = {
 
 SWEP.ExtraShellModels = {
     [1] = {
-        model = "models/weapons/arc9_fas/shells/7_62x39mm_live.mdl"
+        model = "models/weapons/arc9_fas/shells/7_62x39mm_live.mdl",
+        smoke = false
     },
     [2] = {
         model = "models/weapons/arc9_fas/shells/sks_clip.mdl",
-        physbox = Vector(0.5, 0.5, 4)
+        physbox = Vector(0.5, 0.5, 4),
+        smoke = false
     }
 }
 

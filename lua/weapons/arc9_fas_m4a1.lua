@@ -34,7 +34,7 @@ SWEP.Slot = 3
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-10, 4, -6),
+    Pos = Vector(-10, 6, -9),
     TPIKPos = Vector(-16, 4, -6),
     Ang = Angle(-5, 0, 180),
     Scale = 0.75
@@ -206,7 +206,7 @@ SWEP.BipodPos = Vector(0, 0, 0)
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "ar2"
+SWEP.HoldType = "smg"
 SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "ar2"

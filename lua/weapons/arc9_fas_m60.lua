@@ -31,7 +31,7 @@ SWEP.Slot = 4
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-10, 4, -6),
+    Pos = Vector(-17, 7, -12),
     TPIKPos = Vector(-16, 4, -6),
     Ang = Angle(-5, 0, 180),
     Scale = 0.75
@@ -222,7 +222,7 @@ SWEP.BipodPos = Vector(0, 0, 0)
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "ar2"
+SWEP.HoldType = "smg"
 SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "ar2"
@@ -246,11 +246,13 @@ SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 SWEP.ExtraShellModels = {
     [1] = {
         model = "models/weapons/arc9_fas/shells/link_m60.mdl",
-        physbox = Vector(1, 1, 1)
+        physbox = Vector(1, 1, 1),
+        smoke = false
     },
     [2] = {
         model = "models/weapons/arc9_fas/shells/link_m60_start.mdl",
-        physbox = Vector(1, 1, 1)
+        physbox = Vector(1, 1, 1),
+        smoke = false
     },
 }
 

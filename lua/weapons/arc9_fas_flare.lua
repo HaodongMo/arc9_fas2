@@ -39,6 +39,7 @@ SWEP.WorldModelOffset = {
     Scale = 0.75
 }
 SWEP.NoTPIKVMPos = true
+SWEP.NoTPIK = true
 
 SWEP.EntitySelectIcon = true
 
