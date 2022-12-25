@@ -25,7 +25,7 @@ SWEP.Credits = {
 SWEP.Description = [[Full-size semi automatic 9mm pistol. Very well balanced.]]
 
 SWEP.ViewModel = "models/weapons/arc9_fas/pistols/p226.mdl"
-SWEP.WorldModel = "models/weapons/w_pist_p226.mdl"
+SWEP.WorldModel = "models/weapons/w_pist_p228.mdl"
 
 SWEP.Slot = 1
 

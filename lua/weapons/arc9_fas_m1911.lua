@@ -26,7 +26,7 @@ SWEP.Credits = {
 SWEP.Description = [[Legendary American pistol, chambered in .45 ACP. Excellent stopping power in a compact package.]]
 
 SWEP.ViewModel = "models/weapons/arc9_fas/pistols/m1911.mdl"
-SWEP.WorldModel = "models/weapons/w_pist_p226.mdl"
+SWEP.WorldModel = "models/weapons/w_pist_p228.mdl"
 
 SWEP.Slot = 1
 
