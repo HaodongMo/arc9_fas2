@@ -120,7 +120,8 @@ SWEP.HoldTypeSights = "melee"
 SWEP.HoldTypeCustomize = "slam"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
-SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
+SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 SWEP.AnimDraw = false
 
 -------------------------- SOUNDS
