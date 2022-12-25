@@ -100,6 +100,8 @@ SWEP.TriggerDelayTime = 60 / 600
 SWEP.TriggerDelayCancellable = false
 SWEP.TriggerDelayRepeat = true
 
+SWEP.BarrelLength = 24
+
 -------------------------- RECOIL
 
 -- General recoil multiplier

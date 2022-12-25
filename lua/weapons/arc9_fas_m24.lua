@@ -102,6 +102,8 @@ SWEP.Firemodes = {
 SWEP.ManualAction = true
 SWEP.ManualActionNoLastCycle = true
 
+SWEP.BarrelLength = 24
+
 -------------------------- RECOIL
 
 -- General recoil multiplier

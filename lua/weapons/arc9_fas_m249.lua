@@ -94,6 +94,8 @@ SWEP.Firemodes = {
     },
 }
 
+SWEP.BarrelLength = 24
+
 -------------------------- BIPOD
 
 SWEP.Bipod = true

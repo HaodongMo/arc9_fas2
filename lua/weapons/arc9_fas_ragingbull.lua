@@ -95,6 +95,8 @@ SWEP.TriggerDelay = true -- Add a delay before the weapon fires.
 SWEP.TriggerDelayTime = 0.06 -- Time until weapon fires.
 SWEP.TriggerDelayRepeat = true -- Whether to do it for every shot on automatics.
 
+SWEP.BarrelLength = 8
+
 -------------------------- RECOIL
 
 -- General recoil multiplier

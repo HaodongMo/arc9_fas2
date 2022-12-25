@@ -99,6 +99,8 @@ SWEP.TriggerDelayCancellable = false
 SWEP.TriggerDelayRepeat = true
 SWEP.TriggerStartFireAnim = true
 
+SWEP.BarrelLength = 24
+
 -------------------------- RECOIL
 
 -- General recoil multiplier

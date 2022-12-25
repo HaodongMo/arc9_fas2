@@ -95,6 +95,8 @@ SWEP.Firemodes = {
     }
 }
 
+SWEP.BarrelLength = 8
+
 -------------------------- RECOIL
 
 -- General recoil multiplier

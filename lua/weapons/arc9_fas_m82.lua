@@ -95,6 +95,8 @@ SWEP.Firemodes = {
 SWEP.TriggerDelay = true
 SWEP.TriggerDelayTime = 0.1
 
+SWEP.BarrelLength = 24
+
 -------------------------- BIPOD
 
 SWEP.Bipod = true
