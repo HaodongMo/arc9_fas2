@@ -30,8 +30,7 @@ SWEP.Slot = 0
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-16, 4, -4),
-    TPIKPos = Vector(-18, 4, -4),
+    Pos = Vector(-34, 11, -10),
     Ang = Angle(-5, 0, 180),
     Scale = 0.75
 }
@@ -131,6 +130,7 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 SWEP.AnimDraw = false
+SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_MELEE
 
 -------------------------- SOUNDS
 

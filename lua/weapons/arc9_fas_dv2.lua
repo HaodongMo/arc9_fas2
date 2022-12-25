@@ -32,9 +32,9 @@ SWEP.Slot = 0
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
-    Pos = Vector(-16, 4, -4),
+    Pos = Vector(-20, 8, 6),
     TPIKPos = Vector(-18, 4, -4),
-    Ang = Angle(-5, 0, 180),
+    Ang = Angle(-5, 0, 90),
     Scale = 0.75
 }
 SWEP.NoTPIKVMPos = true
@@ -124,7 +124,7 @@ SWEP.CustomizeSnapshotFOV = 100
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "melee"
+SWEP.HoldType = "knife"
 SWEP.HoldTypeSprint = "normal"
 SWEP.HoldTypeHolstered = "normal"
 SWEP.HoldTypeSights = "melee"
@@ -134,6 +134,7 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
 SWEP.AnimDraw = false
+SWEP.AnimMelee = ACT_HL2MP_GESTURE_RANGE_ATTACK_KNIFE
 
 -------------------------- SOUNDS
 
