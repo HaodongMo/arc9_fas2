@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\arc9_fas\shells\12Gauge_freedom"
+	"$bumpmap" "models\weapons\arc9_fas\shells\12Gauge_single_normal"
+	"$phongexponenttexture" "models/albedotint"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.08 0.05]"
+	"$phong" 			"1"
+	"$phongexponent"		"10"
+	"$phongboost" 			"10"
+	"$phongfresnelranges"		"[0.1 0.4 .8]"//"[0.1 0.4 .8]"
+	$phongdisablehalflambert 1
+	$halflambert 0
+	$PhongAlbedoTint 1
+	"$normalmapalphaenvmapmask"	"1"
+}

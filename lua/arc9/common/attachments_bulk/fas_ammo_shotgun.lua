@@ -146,6 +146,38 @@ ARC9.LoadAttachment(ATT, "fas_ammo_shotgun_magnum")
 
 ATT = {}
 
+ATT.PrintName = "AAI Freedomfetti"
+ATT.CompactName = "FREEDOM"
+ATT.Icon = Material("entities/arc9_att_fas_ammo_shotgun.png", "mips smooth")
+ATT.Description = [[Explosive confetti rounds.]]
+ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
+ATT.Category = "fas_ammo_shotgun"
+
+ATT.Model = "models/weapons/arc9_fas/accessories/ammo_12g_slug.mdl"
+ATT.ModelMaterial = "models/weapons/arc9_fas/shells/12gauge_freedom"
+ATT.ShellModel = "models/weapons/arc9_fas/shells/12g_generic.mdl"
+ATT.ShellMaterial = "models/weapons/arc9_fas/shells/12gauge_freedom"
+
+ATT.Num = 4
+
+ATT.SpreadMult = 2
+
+ATT.DamageMinMult = 0.1
+ATT.DamageMaxMult = 0.1
+
+ATT.ExplosionDamage = 10
+ATT.ExplosionRadius = 128
+ATT.ExplosionEffect = "fas_he_party"
+ATT.ImpactDecal = "smallscorch"
+ATT.ImpactSound = "phx/explode00.wav"
+
+ATT.PenetrationMult = 0
+ATT.RicochetChanceMult = 0
+
+ARC9.LoadAttachment(ATT, "fas_ammo_shotgun_freedom")
+
+ATT = {}
+
 ATT.PrintName = "23mm Barrikada Slug"
 ATT.CompactName = "BARRIKADA"
 ATT.Icon = Material("entities/arc9_att_fas_ammo_shotgun.png", "mips smooth")
