@@ -175,7 +175,7 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(-3.3, -5, 1.275),
+    Pos = Vector(-3.3, -5, 1.275) * 0.8,
     Ang = Angle(0, 0, 0),
     Midpoint = { -- Where the gun should be at the middle of it's irons
         Pos = Vector(-4, 0, -8),
@@ -195,7 +195,7 @@ SWEP.CrouchPos = Vector(-2, -3, -3)
 SWEP.CrouchAng = Angle(0, 0, 0)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(16, 16, 4)
+SWEP.CustomizePos = Vector(14, 12, 3)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
@@ -369,40 +369,41 @@ SWEP.Attachments = {
         PrintName = "MUZZLE",
         Category = "fas_supp_pistol",
         Bone = "Barrel",
-        Pos = Vector(0, -5.1, 0.75),
+        Pos = Vector(0, -5.1, 0.75) * 0.8,
         Ang = Angle(0, 90, 0),
     },
     {
         PrintName = "RAIL",
         Category = "fas_pistol_rail",
         Bone = "Base",
-        Pos = Vector(0, 0.22, -7),
+        Pos = Vector(0, 0.22, -7) * 0.8,
         Ang = Angle(-90, 90, 0),
     },
     {
         PrintName = "PERK",
         Category = "fas_perk",
         Bone = "Base",
-        Pos = Vector(0, 0, 2),
+        Pos = Vector(0, 0, 2) * 0.8,
         Ang = Angle(0, 0, 0),
     },
     {
         PrintName = "AMMO",
         Category = "fas_ammo_bullet",
         Bone = "Base",
-        Pos = Vector(0, 1, -1),
+        Pos = Vector(0, 1, -1) * 0.8,
         Ang = Angle(0, 0, 0),
     },
     {
         PrintName = "CHARM",
         Category = "charm",
         Bone = "Slide",
-        Pos = Vector(-0.5, -3, 0.5),
+        Pos = Vector(-0.5, -3, 0.5) * 0.8,
         Ang = Angle(0, 90, 0),
     },
     {
         PrintName = "STICKER",
         StickerModel = "models/weapons/stickers/ots33_a.mdl",
         Category = "stickers",
+        Scale = 0.8
     },
 }

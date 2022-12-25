@@ -1,5 +1,5 @@
 $modelname "ots33_a.mdl"
-$scale 2
+$scale 1.4
 $bodygroup "studio"
 {
 	studio "sticker_a.smd"
