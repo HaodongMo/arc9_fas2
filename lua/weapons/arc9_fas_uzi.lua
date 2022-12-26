@@ -432,7 +432,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "STICKER",
-        StickerModel = "models/weapons/stickers/uzi_a.mdl",
+        StickerModel = "models/weapons/arc9_fas/stickers/uzi_a.mdl",
         Category = "stickers",
     },
 }

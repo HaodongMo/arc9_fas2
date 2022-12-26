@@ -573,7 +573,7 @@ SWEP.Attachments = {
     },
     {
         PrintName = "STICKER",
-        StickerModel = "models/weapons/stickers/rk95_a.mdl",
+        StickerModel = "models/weapons/arc9_fas/stickers/rk95_a.mdl",
         Category = "stickers",
     },
 }
