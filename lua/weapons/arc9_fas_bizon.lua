@@ -262,6 +262,7 @@ SWEP.Animations = {
     ["draw"] = {
         HideBoneIndex = 1,
         Source = "deploy",
+        Mult = 2,
         EventTable = {
             {s = ARC9FAS.Deploy, t = 0},
         }

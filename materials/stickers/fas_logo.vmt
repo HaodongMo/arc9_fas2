@@ -1,6 +1,6 @@
 "vertexlitgeneric"
 {
-	"$basetexture"	"stickers\neco"
+	"$basetexture"	"stickers\fas_logo"
      "$alphatest"	"1"
      "$decal"		"1"
      "$nocull"		"1"
