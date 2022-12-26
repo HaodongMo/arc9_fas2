@@ -1,5 +1,8 @@
 --[[
     Arctic - The guy that made this thing
+    RomeoQuebec - Fix fingers
+    Fesiug - QCI
+    Twilight Sparkle - Stickers
     FA:S Team - Most of the assets
     Twinke Masta - Select assets
     Tigg - Select assets

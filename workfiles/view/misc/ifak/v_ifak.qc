@@ -1,6 +1,9 @@
 // Created by Crowbar 0.68
 
-$modelname "weapons\v_ifak.mdl"
+$modelname "weapons\arc9_fas\misc\ifak.mdl"
+
+$include "..\..\fas2.qci"
+$scale 2
 
 $bodygroup "IFAK"
 {
