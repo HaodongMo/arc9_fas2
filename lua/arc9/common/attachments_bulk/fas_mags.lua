@@ -151,7 +151,7 @@ ATT.Attachments = {
     {
         PrintName = "ASSIST",
         Pos = Vector(-0.95, 0, -2),
-        Ang = Angle(0, -13, 0),
+        Ang = Angle(-13, 0, 0),
         Category = "fas_mag_pull",
         Icon_Offset = Vector(1, 0, -4)
     }
