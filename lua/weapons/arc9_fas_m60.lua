@@ -288,6 +288,26 @@ SWEP.ExitSightsSound = ARC9FAS.SightLower
 SWEP.FiremodeSound = ARC9FAS.Switch
 
 SWEP.Animations = {
+    ["ready"] = {
+        HideBoneIndex = 1,
+        Source = "deploy_first",
+        EventTable = {
+            {s = ARC9FAS.Cloth_Movement, t = 0},
+            {s = path .. "carryinghandle.wav", t = 32 / 30},
+            {s = path .. "charge.wav", t = 55 / 30},
+            {s = path .. "open.wav", t = 87 / 30},
+            {s = path .. "feeding_mechanism.wav", t = 104 / 30},
+            {s = path .. "feeding_mechanism.wav", t = 113 / 30},
+            {s = path .. "feeding_tray.wav", t = 133 / 30},
+            {s = path .. "belt_insert.wav", t = 170 / 30},
+            {s = path .. "belt1.wav", t = 187 / 30},
+            {s = path .. "close.wav", t = 216 / 30},
+            {s = path .. "flipsights.wav", t = 230 / 30},
+            {s = path .. "bipod.wav", t = 250 / 30},
+            {s = path .. "shoulderrest.wav", t = 285 / 30},
+            {s = path .. "bipod.wav", t = 325 / 30},
+        },
+    },
     ["draw"] = {
         HideBoneIndex = 1,
         Source = "deploy_unfired",
