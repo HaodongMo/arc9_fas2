@@ -283,7 +283,19 @@ SWEP.Animations = {
             {s = path .. "stockunfold.wav", t = 15 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 15 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 24 / 30},
-        }
+        },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 1
+            },
+            {
+                t = 1,
+                lhik = 1,
+                rhik = 1
+            },
+        },
     },
     ["idle"] = {
         Source = "idle"
@@ -322,6 +334,28 @@ SWEP.Animations = {
             {s = path .. "magin.wav", t = 79 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 79 / 30},
         },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 1
+            },
+            {
+                t = 0.25,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.75,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 1,
+                lhik = 1,
+                rhik = 1
+            },
+        },
     },
     ["reload_empty"] = {
         Source = "reload_empty",
@@ -341,6 +375,28 @@ SWEP.Animations = {
             {s = path .. "magin.wav", t = 96 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 96 / 30},
         },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 1
+            },
+            {
+                t = 0.25,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.75,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 1,
+                lhik = 1,
+                rhik = 1
+            },
+        },
     },
     ["reload_proficient"] = {
         Source = "reload_nomen",
@@ -355,6 +411,28 @@ SWEP.Animations = {
             {s = ARC9FAS.Cloth_Movement, t = 35 / 30},
             {s = path .. "magin.wav", t = 41 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 41 / 30},
+        },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 1
+            },
+            {
+                t = 0.25,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.75,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 1,
+                lhik = 1,
+                rhik = 1
+            },
         },
     },
     ["reload_empty_proficient"] = {
@@ -374,6 +452,28 @@ SWEP.Animations = {
             {s = ARC9FAS.Cloth_Movement, t = 82 / 45},
             {s = path .. "magin.wav", t = 96 / 45},
             {s = ARC9FAS.Cloth_Movement, t = 96 / 45},
+        },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 1
+            },
+            {
+                t = 0.25,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.75,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 1,
+                lhik = 1,
+                rhik = 1
+            },
         },
     },
 }
@@ -409,6 +509,13 @@ SWEP.Attachments = {
         InstalledElements = {
             "rail"
         }
+    },
+    {
+        PrintName = "UBGL",
+        Category = "fas_ubgl",
+        Bone = "frame",
+        Pos = Vector(6.5, -0.2, -0.5),
+        Ang = Angle(0, 180, 0),
     },
     {
         PrintName = "PERK",

@@ -844,7 +844,7 @@ SWEP.Attachments = {
         Hidden = true
     },
     {
-        PrintName = "MAG",
+        PrintName = "CALIBER",
         Category = "fas_m24_mag",
         Bone = "Dummy04",
         Pos = Vector(-2, 2, 0),
