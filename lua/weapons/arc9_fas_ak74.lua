@@ -10,7 +10,7 @@ SWEP.PrintName = "AKS-74"
 SWEP.Class = "Assault Rifle"
 
 SWEP.Trivia = {
-    Designer = "Yevgeny Dragunov",
+    Designer = "Mikhail Kalashnikov",
     Manufacturer = "Kalashnikov Concern",
     Calibre = "5.45x39mm Soviet",
     Mechanism = "Gas-Operated Rotating Bolt",
