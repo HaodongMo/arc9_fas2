@@ -441,6 +441,28 @@ SWEP.Animations = {
     ["idle_bipod_empty"] = {
         Source = "bipod_idle_empty"
     },
+    ["idle_iron_bipod"] = {
+        Source = ""
+    },
+    ["idle_iron_bipod_empty"] = {
+        Source = ""
+    },
+    ["enter_sights_bipod"] = {
+        HideBoneIndex = 1,
+        Source = "",
+    },
+    ["exit_sights_bipod"] = {
+        HideBoneIndex = 1,
+        Source = "",
+    },
+    ["enter_sights_bipod_empty"] = {
+        HideBoneIndex = 1,
+        Source = "",
+    },
+    ["exit_sights_bipod_empty"] = {
+        HideBoneIndex = 1,
+        Source = "",
+    },
     ["reload_bipod"] = {
         Source = "bipod_reload",
         EventTable = {
@@ -500,6 +522,14 @@ SWEP.Animations = {
     ["fire_bipod_empty"] = {
         HideBoneIndex = 1,
         Source = "bipod_fire_last"
+    },
+    ["fire_iron_bipod"] = {
+        HideBoneIndex = 1,
+        Source = "bipod_fire3_scoped"
+    },
+    ["fire_iron_bipod_empty"] = {
+        HideBoneIndex = 1,
+        Source = "bipod_fire_last_scoped"
     },
 }
 
