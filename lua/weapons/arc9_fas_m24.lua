@@ -828,13 +828,6 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "MAG",
-        Category = "fas_ammo_bullet",
-        Bone = "Dummy04",
-        Pos = Vector(-6, 1, 0),
-        Ang = Angle(0, 0, 0),
-    },
-    {
         PrintName = "OPTIC2",
         Category = "fas_optic",
         Bone = "Dummy04",
@@ -844,7 +837,7 @@ SWEP.Attachments = {
         Hidden = true
     },
     {
-        PrintName = "CALIBER",
+        PrintName = "CALIBRE",
         Category = "fas_m24_mag",
         Bone = "Dummy04",
         Pos = Vector(-2, 2, 0),
