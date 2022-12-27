@@ -803,7 +803,7 @@ SWEP.Attachments = {
         Pos = Vector(-3.75, -2.45, 0),
         Ang = Angle(0, 0, -90),
         InstalledElements = {"rail"},
-        MergeSlots = {7}
+        MergeSlots = {6}
     },
     {
         PrintName = "RAIL",
