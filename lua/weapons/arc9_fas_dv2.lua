@@ -43,6 +43,8 @@ SWEP.NoTPIK = true
 
 SWEP.EntitySelectIcon = true
 
+SWEP.CanLean = false
+
 -------------------------- MAGAZINE
 
 SWEP.Ammo = "" -- What ammo type this gun uses.

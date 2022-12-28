@@ -374,7 +374,7 @@ SWEP.Attachments = {
         PrintName = "RAIL",
         Category = {"fas_pistol_rail", "fas_tactical"},
         Bone = "Frame_BONE",
-        Pos = Vector(7, -1.5, 0) * 0.875,
+        Pos = Vector(6.2, -1.5, 0) * 0.875,
         Ang = Angle(0, 0, -90),
     },
     {

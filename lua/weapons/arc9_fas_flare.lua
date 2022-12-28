@@ -43,6 +43,8 @@ SWEP.NoTPIK = true
 
 SWEP.EntitySelectIcon = true
 
+SWEP.CanLean = false
+
 -------------------------- ENTITY LAUNCHING
 
 SWEP.ShootEnt = "fas_nade_flare_thrown" -- Set to an entity to launch it out of this weapon.

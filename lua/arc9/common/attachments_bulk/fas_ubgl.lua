@@ -23,6 +23,9 @@ ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {
         Source = "fire",
     },
+    ["fire_iron_ubgl"] = {
+        Source = "fire",
+    },
     ["fire_empty_ubgl"] = {
         Source = "fire",
     },
@@ -51,6 +54,15 @@ ATT.IKAnimationProxy = {
     ["exit_ubgl"] = {
         Source = "to_idle"
     },
+    ["idle_iron_ubgl"] = {
+        Source = "idle_armed"
+    },
+    ["enter_sights_ubgl"] = {
+        Source = "idle_armed"
+    },
+    ["exit_sights_ubgl"] = {
+        Source = "idle_armed"
+    }
 } -- When an animation event plays, override it with one based on this LHIK model.
 ATT.IKGunMotionQCA = 2
 
@@ -84,7 +96,9 @@ ATT.SpreadUBGL = 0
 ATT.FirstShootSoundUBGL = false
 ATT.ShootSoundUBGL = "weapons/arc9_fas/explosive_m79/m79_fire1.wav"
 ATT.DistantShootSoundUBGL = "weapons/arc9_fas/explosive_m79/m79_fire1.wav"
-ATT.HasSightsUBGL = false
+ATT.HasSightsUBGL = true
+
+ATT.TriggerDelayUBGL = false
 
 ATT.EnterUBGLSound = ARC9FAS.Deploy
 ATT.ExitUBGLSound = ARC9FAS.Holster
@@ -97,7 +111,7 @@ ATT.MuzzleParticleUBGL = "muzzleflash_m79"
 ATT.ModelOffset = Vector(0, 0, 1)
 ATT.ModelAngleOffset = Angle(0, 180, 0)
 
-ATT.ShootAngOffsetUBGL = Angle(20, 0, 0)
+ATT.AimDownSightsTimeUBGL = 0.4
 
 ATT.Attachments = {
     {
@@ -106,6 +120,15 @@ ATT.Attachments = {
         Ang = Angle(0, 0, 0),
         Category = "fas_ammo_ubgl_grenade",
         Icon_Offset = Vector(-2, 0, 2),
+    }
+}
+
+ATT.Sights = {
+    {
+        Pos = Vector(3, 15, -3),
+        Ang = Angle(0, 0, 0),
+        UBGLOnly = true,
+        CrosshairInSights = true
     }
 }
 
