@@ -232,6 +232,8 @@ SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 
+SWEP.ShellSounds = ARC9.PistolShellSoundsTable
+
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
 SWEP.CamQCA = 1
