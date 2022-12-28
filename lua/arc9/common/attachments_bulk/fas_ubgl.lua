@@ -132,4 +132,6 @@ ATT.Sights = {
     }
 }
 
+ATT.UBGLExclusiveSightsUBGL = true
+
 ARC9.LoadAttachment(ATT, "fas_ubgl_m203")
