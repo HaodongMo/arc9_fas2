@@ -152,7 +152,8 @@ SWEP.Animations = {
         }
     },
     ["holster"] = {
-        Source = "holster"
+        Source = "deploy",
+        Mult = -1
     },
     ["pullpin"] = {
         Source = "set",
@@ -182,10 +183,8 @@ SWEP.Animations = {
         }
     },
     ["holster_detonator"] = {
-        Source = "holster_det"
-    },
-    ["holster_empty"] = {
-        Source = "holster_det"
+        Source = "deploy_det",
+        Mult = -1
     },
     ["touchoff"] = {
         Source = "detonate"
