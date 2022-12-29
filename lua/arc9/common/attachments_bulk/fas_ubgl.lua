@@ -23,9 +23,6 @@ ATT.IKAnimationProxy = {
     ["fire_ubgl"] = {
         Source = "fire",
     },
-    ["fire_iron_ubgl"] = {
-        Source = "fire",
-    },
     ["fire_empty_ubgl"] = {
         Source = "fire",
     },
@@ -48,14 +45,8 @@ ATT.IKAnimationProxy = {
     ["idle_ubgl"] = {
         Source = "idle_armed"
     },
-    ["idle_empty_ubgl"] = {
-        Source = "idle_armed"
-    },
     ["exit_ubgl"] = {
         Source = "to_idle"
-    },
-    ["idle_iron_ubgl"] = {
-        Source = "idle_armed"
     },
     ["enter_sights_ubgl"] = {
         Source = "idle_armed"
