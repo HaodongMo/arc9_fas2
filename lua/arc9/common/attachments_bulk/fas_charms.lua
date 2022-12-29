@@ -2,7 +2,7 @@ local ATT = {}
 
 ATT.PrintName = "Banana"
 ATT.CompactName = "BANANA"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_charm_banana.png", "mips smooth")
 ATT.Description = [[A funny banana. For some reason, this was in the FA:S 2.0 game files.]]
 ATT.MenuCategory = "ARC9 - Charms"
 

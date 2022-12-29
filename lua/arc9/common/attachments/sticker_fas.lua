@@ -1,5 +1,7 @@
 ATT.PrintName = [[Firearms: Source Logo]]
-ATT.Description = [[]]
+ATT.Description = [[Taken from us too early.
+
+Sticker included in Gunsmith Arms: Source.]]
 ATT.Icon = Material("stickers/fas_logo")
 
 ATT.SortOrder = 0
