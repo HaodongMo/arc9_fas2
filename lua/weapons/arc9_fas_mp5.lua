@@ -320,16 +320,18 @@ SWEP.Animations = {
         }
     },
     ["idle_iron"] = {
-        Source = "idle_scoped"
+        Source = "idle_scoped",
+        Mult = math.huge
     },
     ["enter_sights"] = {
         HideBoneIndex = 1,
-        Source = "idle_scoped"
+        Source = "idle_scoped",
+        Mult = math.huge
     },
     ["exit_sights"] = {
         HideBoneIndex = 1,
         Source = "idle",
-        Mult = 3
+        Mult = math.huge
     },
     ["fire"] = {
         HideBoneIndex = 1,
