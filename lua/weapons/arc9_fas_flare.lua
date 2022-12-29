@@ -26,7 +26,7 @@ SWEP.Description = [[Signal flare.
 
 Throw to signal a nearby mortar battery to barrage the area.]]
 
-SWEP.ViewModel = "models/weapons/v_flare.mdl"
+SWEP.ViewModel = "models/weapons/arc9_fas/explosives/flare.mdl"
 SWEP.WorldModel = "models/weapons/w_eq_fraggrenade.mdl"
 
 SWEP.Slot = 5
@@ -52,7 +52,7 @@ SWEP.ShootEntForce = 5000
 SWEP.ShootEntInheritPlayerVelocity = true
 
 SWEP.Throwable = true
-SWEP.Tossable = true
+SWEP.Tossable = false
 SWEP.ThrowAnimSpeed = 1
 
 SWEP.FuseTimer = 4
@@ -139,38 +139,19 @@ SWEP.Animations = {
         Source = "idle"
     },
     ["draw"] = {
-        Source = "deploy_first",
-        EventTable = {
-            {s = path .. "safety.wav", t = 4 / 20}
-        }
+        Source = "deploy",
     },
     ["holster"] = {
-        Source = "holster"
+        Source = "deploy",
+        Mult = -1
     },
     ["pullpin"] = {
-        Source = "cook",
-        MinProgress = 1,
+        Source = "throw",
+        MinProgress = 0.75,
         FireASAP = true,
-        EventTable = {
-            {s = path .. "pinpull.wav", t = 10 / 30},
-            {s = path .. "spoon1.wav", t = 15 / 30},
-        }
-    },
-    ["pullpin_toss"] = {
-        Source = "cook",
-        MinProgress = 1,
-        FireASAP = true,
-        EventTable = {
-            {s = path .. "pinpull.wav", t = 10 / 30},
-            {s = path .. "spoon1.wav", t = 15 / 30},
-        }
     },
     ["throw"] = {
-        Source = "throw",
-        MinProgress = 0.25
-    },
-    ["toss"] = {
-        Source = "throw",
-        MinProgress = 0.25
-    },
+        Source = "idle",
+        Time = 0.1
+    }
 }
