@@ -3,7 +3,7 @@
 $modelname "weapons\arc9_fas\misc\machete.mdl"
 
 $include "..\..\fas2.qci"
-$scale 2
+$scale 1.75
 
 $bodygroup "studio"
 {
