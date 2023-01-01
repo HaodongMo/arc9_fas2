@@ -1,9 +1,9 @@
-// "M16A1 Customizable" (https://skfb.ly/6xGZC) by DavidFalke is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+// "M16A1 Customizable" (https://skfb.ly/6xGZC) by davidfalke is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 VertexLitGeneric
 {
-	$basetexture				"models\weapons\arc9_fas\view\accessories\DavidFalke_m16a1_grenade_base"
-	$bumpmap					"models\weapons\arc9_fas\view\accessories\DavidFalke_m16a1_grenade_bump"
-	$phongexponenttexture		"models\weapons\arc9_fas\view\accessories\DavidFalke_m16a1_grenade_phong"
+	$basetexture				"models\weapons\arc9_fas\view\accessories\davidfalke_m16a1_grenade_base"
+	$bumpmap					"models\weapons\arc9_fas\view\accessories\davidfalke_m16a1_grenade_bump"
+	$phongexponenttexture		"models\weapons\arc9_fas\view\accessories\davidfalke_m16a1_grenade_phong"
 	$color2						"[1 1 1]"
 
 	$envmap						env_cubemap
