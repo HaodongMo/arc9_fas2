@@ -22,7 +22,9 @@ SWEP.Credits = {
     Assets = "Firearms: Source Team",
 }
 
-SWEP.Description = [[A submachine gun that makes up for its mediocre performance with a near-bottomless helical magazine. The design was later retired due to being unreliable, with later variations doing away with the helical mag in favor of a more conventional stick magazine. Take advantage of its unrivalled magazine capacity to dominate corridors and as a close-range suppressive fire weapon, but watch out for anemic long-range performance and punchy recoil, especially at distance.]]
+SWEP.Description = [[Lightweight 40mm grenade launcher developed as a portable means of giving infantry squads greater amounts of firepower. Later succeeded by the M203, the M79 can fire a variety of 40mm grenades.
+
+Grenades are lethal at any range and deadly accurate. At long range, they can even supply indirect fire.]]
 
 SWEP.ViewModel = "models/weapons/arc9_fas/explosives/m79.mdl"
 SWEP.WorldModel = "models/weapons/w_shot_m3super90.mdl"
