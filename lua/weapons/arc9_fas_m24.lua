@@ -201,6 +201,16 @@ SWEP.IronSights = {
     Magnification = 1.1,
 }
 
+SWEP.IronSightsBipod = {
+    Pos = Vector(-5.325, -10, 3.2),
+    Ang = Angle(0, 0, 0),
+    Midpoint = { -- Where the gun should be at the middle of it's irons
+        Pos = Vector(-4, 0, -8),
+        Ang = Angle(0, 0, 0),
+    },
+    Magnification = 1.1,
+}
+
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, -4, 0)
 
