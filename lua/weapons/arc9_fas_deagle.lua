@@ -183,8 +183,8 @@ SWEP.IronSights = {
     Magnification = 1.1,
 }
 
-SWEP.SprintAng = Angle(0, 45, 0)
-SWEP.SprintPos = Vector(-2, 0, -14)
+SWEP.SprintAng = Angle(30, -15, 0)
+SWEP.SprintPos = Vector(6.5, 0, 3)
 
 SWEP.ViewModelFOVBase = 55
 SWEP.ActivePos = Vector(0, 0, -1)
