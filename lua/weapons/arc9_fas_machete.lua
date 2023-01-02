@@ -3,7 +3,8 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - Gunsmith Arms Source (Gear)"
+SWEP.Category = "ARC9 - Gunsmith Arms Source"
+SWEP.SubCategory = "Melee"
 
 SWEP.PrintName = "Machete"
 

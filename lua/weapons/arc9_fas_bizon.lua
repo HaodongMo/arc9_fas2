@@ -4,6 +4,7 @@ SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
 SWEP.Category = "ARC9 - Gunsmith Arms Source"
+SWEP.SubCategory = "Submachine Guns"
 
 SWEP.PrintName = "PP-19 Bizon"
 
