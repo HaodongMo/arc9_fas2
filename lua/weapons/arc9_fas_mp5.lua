@@ -145,8 +145,8 @@ SWEP.VisualRecoil = 1
 SWEP.VisualRecoilMultSights = 1
 SWEP.VisualRecoilPositionBump = 1.5
 
-SWEP.VisualRecoilMultHipFire = 2
-SWEP.VisualRecoilSideMultHipFire = 2
+SWEP.VisualRecoilMultHipFire = 1.5
+SWEP.VisualRecoilSideMultHipFire = 1
 
 SWEP.VisualRecoilDampingConst = 40
 SWEP.VisualRecoilSpringMagnitude = 1
