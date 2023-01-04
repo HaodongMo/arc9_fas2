@@ -31,7 +31,7 @@ Burst-fire-only submachine gun. Very ergonomic, with great recoil characteristic
 SWEP.ViewModel = "models/weapons/arc9_fas/smgs/colt.mdl"
 SWEP.WorldModel = "models/weapons/w_rif_m4a1.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {

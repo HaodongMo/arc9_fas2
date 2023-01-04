@@ -40,7 +40,7 @@ $cdmaterials "models\weapons\arc9_fas\view\accessories\"
 $cdmaterials "models\weapons\arc9_fas\v_models\accessories\"
 $cdmaterials "models\weapons\arc9_fas\shells\"
 
-$attachment "muzzle" "smdimport" 0 -11.62 0.9 rotate 0 -99 0
+$attachment "muzzle" "smdimport" 0 -6 0.9 rotate 0 -99 0
 $attachment "ejector" "smdimport" -0.15 1.5 0.9 rotate -5 180 0
 $attachment "muzzle_suppressor" "smdimport" 0 -11.62 0.9 rotate 0 -99 0
 $attachment "Sight1" "smdimport" -0.9 -2.34 0.35 rotate 0.1 -0.04 0
