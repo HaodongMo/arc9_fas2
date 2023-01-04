@@ -547,8 +547,8 @@ SWEP.Attachments = {
         PrintName = "OPTIC",
         Category = "fas_optic",
         Bone = "smdimport",
-        Pos = Vector(0.1, -5.5, 5.4),
-        Ang = Angle(0, -90, 0),
+        Pos = Vector(0.05, -5.5, 5.4),
+        Ang = Angle(0, -90, 2),
         InstalledElements = {"rail"}
     },
     {
