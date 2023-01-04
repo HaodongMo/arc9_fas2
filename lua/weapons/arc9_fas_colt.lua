@@ -240,14 +240,14 @@ SWEP.CamCoolView = true
 
 -------------------------- SOUNDS
 
-local path_uzi = "weapons/arc9_fas/uzi/uzi_"
+local path_l7 = "weapons/arc9_fas/sterling_mk7a4/mk7a4_"
 local path = "weapons/arc9_fas/m16a2/m16a2_"
 local common = "weapons/arc9_fas/"
 
 
-SWEP.ShootSound = path_uzi .. "fire1.wav"
-SWEP.DistantShootSound = "^" .. path_uzi .. "distance_fire1.wav"
-SWEP.ShootSoundSilenced = path_uzi .. "suppressed_fire1.wav"
+SWEP.ShootSound = path_l7 .. "fire1.wav"
+SWEP.DistantShootSound = "^" .. path_l7 .. "distance_fire1.wav"
+SWEP.ShootSoundSilenced = path_l7 .. "suppressed_fire1.wav"
 SWEP.DryFireSound = common .. "empty_submachineguns.wav"
 
 SWEP.DryFireSingleAction = true
@@ -275,7 +275,7 @@ SWEP.Animations = {
             {s = ARC9FAS.Deploy, t = 0},
             {s = ARC9FAS.MagPouch, t = 32 / 30},
             {s = path .. "maghousing.wav", t = 31 / 30},
-            {s = path .. "magin.wav", t = 38 / 30},
+            {s = path_l7 .. "magin.wav", t = 38 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 38 / 30},
             {s = path .. "chargeback.wav", t = 62 / 30},
             {s = path .. "releasehandle.wav", t = 68 / 30},
@@ -331,11 +331,11 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
-            {s = path .. "magout.wav", t = 8 / 30},
+            {s = path_l7 .. "magout.wav", t = 8 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 8 / 30},
             {s = ARC9FAS.MagPouch, t = 27 / 30},
             {s = path .. "maghousing.wav", t = 31 / 30},
-            {s = path .. "magin.wav", t = 38 / 30},
+            {s = path_l7 .. "magin.wav", t = 38 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 31 / 30},
         },
         IKTimeLine = {
@@ -366,11 +366,11 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
-            {s = path .. "magout.wav", t = 8 / 30},
+            {s = path_l7 .. "magout.wav", t = 8 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 8 / 30},
             {s = ARC9FAS.MagPouch, t = 27 / 30},
             {s = path .. "maghousing.wav", t = 31 / 30},
-            {s = path .. "magin.wav", t = 38 / 30},
+            {s = path_l7 .. "magin.wav", t = 38 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 31 / 30},
             {s = path .. "boltcatch.wav", t = 67 / 30},
             {s = ARC9FAS.Cloth_Movement, t = 67 / 30},
@@ -403,10 +403,10 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
-            {s = path .. "magout.wav", t = 7 / 37.5},
+            {s = path_l7 .. "magout.wav", t = 7 / 37.5},
             {s = ARC9FAS.MagPouch, t = 26 / 37.5},
             {s = path .. "maghousing.wav", t = 31 / 37.5},
-            {s = path .. "magin.wav", t = 38 / 37.5},
+            {s = path_l7 .. "magin.wav", t = 38 / 37.5},
             {s = ARC9FAS.Cloth_Movement, t = 31 / 37.5},
         },
         IKTimeLine = {
@@ -437,10 +437,10 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
-            {s = path .. "magout.wav", t = 7 / 37.5},
+            {s = path_l7 .. "magout.wav", t = 7 / 37.5},
             {s = ARC9FAS.MagPouch, t = 26 / 37.5},
             {s = path .. "maghousing.wav", t = 31 / 37.5},
-            {s = path .. "magin.wav", t = 38 / 37.5},
+            {s = path_l7 .. "magin.wav", t = 38 / 37.5},
             {s = ARC9FAS.Cloth_Movement, t = 31 / 37.5},
             {s = path .. "boltcatch.wav", t = 60 / 37.5},
             {s = ARC9FAS.Cloth_Movement, t = 58 / 37.5},
