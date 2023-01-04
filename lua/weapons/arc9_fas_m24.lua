@@ -244,7 +244,7 @@ SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
 
-SWEP.MuzzleParticle = "muzzleflash_1" -- Used for some muzzle effects.
+SWEP.MuzzleParticle = "muzzleflash_m24" -- Used for some muzzle effects.
 
 SWEP.ShellModel = "models/weapons/arc9_fas/shells/7_62x51mm.mdl"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)

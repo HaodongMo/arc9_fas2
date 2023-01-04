@@ -35,7 +35,7 @@ SWEP.Slot = 1
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
     Pos = Vector(-15, 5, -6),
-    TPIKPos = Vector(-18, 4, -4),
+    TPIKPos = Vector(-24, 4, -4),
     Ang = Angle(-5, 0, 180),
     Scale = 1
 }
@@ -209,14 +209,14 @@ SWEP.HoldTypeSights = "revolver"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_PISTOL
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_REVOLVER
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_PISTOL
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_REVOLVER
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
 
-SWEP.MuzzleParticle = "muzzleflash_pistol" -- Used for some muzzle effects.
+SWEP.MuzzleParticle = "muzzleflash_pistol_rbull" -- Used for some muzzle effects.
 
 SWEP.NoShellEject = true
 

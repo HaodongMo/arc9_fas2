@@ -14,15 +14,13 @@ ATT.TracerSizeAdd = 1
 
 ATT.FancyBullets = true
 ATT.HookP_ModifyBullet = function(swep, bullet)
-    local rangemin = swep:GetProcessedValue("RangeMin")
-    local rangemax = swep:GetProcessedValue("RangeMax")
+    local d = swep:GetDamageDeltaAtRange(bullet.Travelled)
 
-    if bullet.Travelled <= rangemin then
+    if d == 0 then
         bullet.Color = Color(255, 25, 25)
-    elseif bullet.Travelled >= rangemax then
+    elseif d == 1 then
         bullet.Color = Color(0, 0, 0, 0)
     else
-        local d = (bullet.Travelled - rangemin) / (rangemax - rangemin)
         local r = Lerp(d, 255, 0)
         local g = Lerp(d, 25, 0)
         local b = Lerp(d, 25, 0)
@@ -50,15 +48,11 @@ ATT.TracerSizeAdd = 1
 
 ATT.FancyBullets = true
 ATT.HookP_ModifyBullet = function(swep, bullet)
-    local rangemin = swep:GetProcessedValue("RangeMin")
-    local rangemax = swep:GetProcessedValue("RangeMax")
-
-    if bullet.Travelled <= rangemin then
+    if d == 0 then
         bullet.Color = Color(25, 255, 25)
-    elseif bullet.Travelled >= rangemax then
+    elseif d == 1 then
         bullet.Color = Color(0, 0, 0, 0)
     else
-        local d = (bullet.Travelled - rangemin) / (rangemax - rangemin)
         local r = Lerp(d, 25, 0)
         local g = Lerp(d, 255, 0)
         local b = Lerp(d, 25, 0)
@@ -81,7 +75,7 @@ ATT.Category = "fas_ammo_bullet"
 
 ATT.DamageMinMult = 0.8
 ATT.DamageMaxMult = 0.8
-ATT.ArmorPenetrationAdd = 0.5
+ATT.ArmorPiercingAdd = 0.25
 ATT.PenetrationMult = 1.1
 
 ARC9.LoadAttachment(ATT, "fas_ammo_ap")
