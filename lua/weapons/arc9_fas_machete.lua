@@ -80,7 +80,7 @@ SWEP.Bash = true
 SWEP.PrimaryBash = true
 
 SWEP.BashDamage = 20
-SWEP.BashLungeRange = 10000
+SWEP.BashLungeRange = 256
 SWEP.BashRange = 48
 SWEP.PreBashTime = 0.25
 SWEP.PostBashTime = 0.5
@@ -90,7 +90,7 @@ SWEP.Bash2 = true
 SWEP.SecondaryBash = true
 
 SWEP.Bash2Damage = 35
-SWEP.Bash2LungeRange = 10000
+SWEP.Bash2LungeRange = 128
 SWEP.Bash2Range = 48
 SWEP.PreBash2Time = 0.25
 SWEP.PostBash2Time = 0.5
