@@ -119,7 +119,7 @@ SWEP.UseVisualRecoil = true
 
 SWEP.PhysicalVisualRecoil = true
 
-SWEP.VisualRecoilUp = 1.50 -- Vertical tilt for visual recoil.F
+SWEP.VisualRecoilUp = 2 -- Vertical tilt for visual recoil.F
 SWEP.VisualRecoilSide = 0.1 -- Horizontal tilt for visual recoil.
 SWEP.VisualRecoilRoll = 25 -- Roll tilt for visual recoil.
 
@@ -233,6 +233,8 @@ SWEP.ShootSound = path .. "fire1.wav"
 SWEP.DistantShootSound = "^" .. path .. "distance_fire1.wav"
 SWEP.ShootSoundSilenced = path .. "suppressed_fire1.wav"
 SWEP.DryFireSound = common .. "empty/hammer_pistol.wav"
+
+SWEP.ShootPitch = 90
 
 SWEP.DryFireSingleAction = false
 
