@@ -35,6 +35,16 @@ $bodygroup "Rail"
 	blank
 	studio "ref_k_rail_forward.smd"
 }
+$bodygroup "stock"
+{
+	studio "stock.smd"
+	studio "stock_tapco.smd"
+}
+$bodygroup "stock2"
+{
+	blank
+	studio "stock_tapco_std.smd"
+}
 
 $surfaceprop "default"
 
@@ -42,6 +52,7 @@ $contents "solid"
 
 $illumposition -2.755 -46.156 -6.898
 
+$cdmaterials "models\weapons\arc9_fas\view\rifles\m4a1\"
 $cdmaterials "models\weapons\arc9_fas\view\rifles\sks\"
 $cdmaterials "models\weapons\arc9_fas\view\accessories\"
 $cdmaterials "models\weapons\arc9_fas\view\hands\"

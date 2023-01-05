@@ -83,3 +83,30 @@ ATT.RangeMaxMult = 0.75
 ATT.SwayMult = 1.25
 
 ARC9.LoadAttachment(ATT, "fas_sks_barrel_short")
+
+ATT = {}
+
+ATT.PrintName = "TAPCO Intrafuse Stock"
+ATT.CompactName = "TAPCO"
+ATT.Icon = Material("entities/arc9_att_fas_sks_stock_tapco.png", "mips smooth")
+ATT.Description = [[Lightweight polymer stock for the SKS with pistol grip.]]
+ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
+ATT.Category = "fas_sks_stock"
+
+ATT.SprintToFireTimeMult = 0.9
+ATT.AimDownSightsTimeMult = 1.1
+ATT.SwayMult = 1.05
+ATT.VisualRecoilMult = 1.05
+ATT.RecoilMult = 1.1
+ATT.DeployTimeMult = 0.75
+
+ATT.Attachments = {
+    {
+        PrintName = "STOCK",
+        Category = "fas_stock",
+        Pos = Vector(3, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "fas_sks_stock_tapco")

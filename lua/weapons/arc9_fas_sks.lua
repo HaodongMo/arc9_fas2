@@ -1292,6 +1292,17 @@ SWEP.AttachmentElements = {
             }
         }
     },
+    ["fas_sks_stock_tapco"] = {
+        Bodygroups = {
+            {5, 1},
+            {6, 1}
+        }
+    },
+    ["buftube"] = {
+        Bodygroups = {
+            {6, 0}
+        }
+    },
     ["fas_sks_mag_30"] = {
         Bodygroups = {
             {3, 2}
@@ -1348,6 +1359,14 @@ SWEP.AttachmentElements = {
     },
 }
 
+SWEP.Hook_ModifyBodygroups = function(self, data)
+    local mdl = data.model
+
+    if self:HasElement("buftube") or self:HasElement("nostock") then
+        mdl:SetBodygroup(6, 0)
+    end
+end
+
 SWEP.Attachments = {
     {
         PrintName = "MUZZLE",
@@ -1385,6 +1404,13 @@ SWEP.Attachments = {
         Bone = "Dummy01",
         Pos = Vector(10, 0, 0),
         Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "STOCK",
+        Category = "fas_sks_stock",
+        Bone = "Dummy01",
+        Pos = Vector(-5, 0, 0),
+        Ang = Angle(0, 0, -90),
     },
     {
         PrintName = "PERK",

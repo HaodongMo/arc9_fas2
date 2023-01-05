@@ -20,7 +20,7 @@ SWEP.Trivia = {
 
 SWEP.Credits = {
     Author = "Arctic",
-    Assets = "Firearms: Source Team",
+    Assets = "EA Digital Illusions CE AB",
 }
 
 SWEP.Description = [[Named after the "Saiga" antelope, the Saiga-12 is a simple application of the Kalashnikov pattern of rifle to a 12 Gauge hunting shotgun.
