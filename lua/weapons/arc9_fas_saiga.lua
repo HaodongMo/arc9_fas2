@@ -50,7 +50,7 @@ SWEP.DamageMin = 60 -- Damage done at maximum range
 
 SWEP.DistributeDamage = true
 
-SWEP.Num = 8
+SWEP.Num = 6
 
 SWEP.DamageRand = 0.1 -- Damage varies randomly per shot by this fraction. 0.1 = +- 10% damage per shot.
 
@@ -251,6 +251,8 @@ SWEP.ShootSound = path_m3 .. "fire1.wav"
 SWEP.DistantShootSound = "^" .. path_m3 .. "distance_fire1.wav"
 SWEP.ShootSoundSilenced = common .. "svd/svd_suppressed_fire1.wav"
 SWEP.DryFireSound = common .. "empty_shotguns.wav"
+
+SWEP.ShootPitch = 110
 
 SWEP.DryFireSingleAction = true
 
