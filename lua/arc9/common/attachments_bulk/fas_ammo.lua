@@ -48,6 +48,8 @@ ATT.TracerSizeAdd = 1
 
 ATT.FancyBullets = true
 ATT.HookP_ModifyBullet = function(swep, bullet)
+    local d = swep:GetDamageDeltaAtRange(bullet.Travelled)
+
     if d == 0 then
         bullet.Color = Color(25, 255, 25)
     elseif d == 1 then
