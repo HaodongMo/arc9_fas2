@@ -65,7 +65,6 @@ SWEP.BodyDamageMults = {
     [HITGROUP_LEFTLEG] = 0.9,
     [HITGROUP_RIGHTLEG] = 0.9,
 }
-
 -------------------------- BIPOD
 
 SWEP.Bipod = true
