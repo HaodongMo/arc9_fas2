@@ -345,13 +345,17 @@ SWEP.Animations = {
         HideBoneIndex = 1,
         EventTable = {
             {s = ARC9FAS.Cloth_Movement, t = 0},
-            {s = ARC9FAS.MagPouch_MG, t = 8208 / 35},
+            {s = ARC9FAS.MagPouch_MG, t = 08 / 35},
             {s = path .. "magrelease.wav", t = 33 / 35},
             {s = ARC9FAS.Cloth_Movement, t = 33 / 35},
             {s = path .. "magout.wav", t = 35 / 35},
             {s = path .. "magin.wav", t = 58 / 35},
             {s = ARC9FAS.Cloth_Movement, t = 58 / 35},
             {s = ARC9FAS.Cloth_Movement, t = 82 / 35},
+            {hide = 1, t = 0},
+            {hide = 2, t = 16 / 35},
+            {hide = 3, t = 58 / 35},
+            {hide = 2, t = 82 / 35},
         },
     },
     ["reload_empty_proficient"] = {
@@ -440,13 +444,37 @@ SWEP.SuppressDefaultEvents = true
 -------------------------- ATTACHMENTS
 
 SWEP.HideBones = {
-    81
+    105,
+    106,
+    107,
+    108,
+    98,
+    101,
+    100,
+    102 -- the fuck is this shit???
 }
 
 SWEP.ReloadHideBoneTables = {
     [1] = {
-        81
+        105,
+        106,
+        107,
+        108,
+        98,
+        101,
+        100,
+        102
     },
+    [2] = {
+    },
+    [3] = {
+        78,
+        79,
+        98,
+        99,
+        100,
+        101
+    }
 }
 
 SWEP.AttachmentElements = {
