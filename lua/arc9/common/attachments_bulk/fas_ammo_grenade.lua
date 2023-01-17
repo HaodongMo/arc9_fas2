@@ -2,7 +2,7 @@ local ATT = {}
 
 ATT.PrintName = "Cluster Triple-Grenades"
 ATT.CompactName = "3GL"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_3gl.png", "mips smooth")
 ATT.Description = [[Cluster grenade bundles three weaker grenades in one.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_grenade"
@@ -19,7 +19,7 @@ ATT = {}
 
 ATT.PrintName = "Cluster Triple-Grenades"
 ATT.CompactName = "3GL"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_3gl.png", "mips smooth")
 ATT.Description = [[Cluster grenade bundles three weaker grenades in one.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_ubgl_grenade"
@@ -37,7 +37,7 @@ ATT = {}
 
 ATT.PrintName = "Training Grenades"
 ATT.CompactName = "DUMMY"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_dummy.png", "mips smooth")
 ATT.Description = [[Grenade lacking explosive filler. Meant for practicisng marksmanship.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_grenade"
@@ -50,7 +50,7 @@ ATT = {}
 
 ATT.PrintName = "Training Grenades"
 ATT.CompactName = "DUMMY"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_dummy.png", "mips smooth")
 ATT.Description = [[Grenade lacking explosive filler. Meant for practicisng marksmanship.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_ubgl_grenade"
@@ -64,7 +64,7 @@ ATT = {}
 
 ATT.PrintName = "Buckshot Grenades"
 ATT.CompactName = "BUCK"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_buck.png", "mips smooth")
 ATT.Description = [[40mm grenade packed with buckshot pellets, creating a shotgun-like effect on the target.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_grenade"
@@ -113,7 +113,7 @@ ATT = {}
 
 ATT.PrintName = "Buckshot Grenades"
 ATT.CompactName = "BUCK"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_buck.png", "mips smooth")
 ATT.Description = [[40mm grenade packed with buckshot pellets, creating a shotgun-like effect on the target.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_ubgl_grenade"
@@ -164,7 +164,7 @@ ATT = {}
 
 ATT.PrintName = "Smoke Grenades"
 ATT.CompactName = "SMOKE"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_smoke.png", "mips smooth")
 ATT.Description = [[Smoke grenade that obscures vision.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_grenade"
@@ -177,7 +177,7 @@ ATT = {}
 
 ATT.PrintName = "Smoke Grenades"
 ATT.CompactName = "SMOKE"
-ATT.Icon = Material("entities/arc9_att_fas_ammo.png", "mips smooth")
+ATT.Icon = Material("entities/arc9_att_fas_ammo_grenade_smoke.png", "mips smooth")
 ATT.Description = [[Smoke grenade that obscures vision.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_ubgl_grenade"

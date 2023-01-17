@@ -33,7 +33,7 @@ ATT = {}
 ATT.PrintName = "Super-X Rifled Slug"
 ATT.CompactName = "SLUG"
 ATT.Icon = Material("entities/arc9_att_fas_ammo_shotgun.png", "mips smooth")
-ATT.Description = [[High-explosive slug rounds.]]
+ATT.Description = [[Accurate slug rounds. Only one projectile, but it's a big one.]]
 ATT.MenuCategory = "ARC9 - Gunsmith Arms Source"
 ATT.Category = "fas_ammo_shotgun"
 
