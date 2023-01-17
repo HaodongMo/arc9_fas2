@@ -310,7 +310,7 @@ SWEP.Animations = {
         Mult = 3
     },
     ["fire"] = {
-        Source = {"fire", "fire2"}
+        Source = "fire_iron"
     },
     ["fire_empty"] = {
         Source = "fire_last"

@@ -330,7 +330,7 @@ SWEP.Animations = {
         Source = "idle_empty_scoped"
     },
     ["fire"] = {
-        Source = {"Fire1", "Fire2", "Fire3"},
+        Source = "fire_scoped",
     },
     ["fire_empty"] = {
         Source = "fire_last"

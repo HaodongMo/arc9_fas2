@@ -336,9 +336,9 @@ SWEP.Animations = {
     ["fire"] = {
         HideBoneIndex = 1,
         Source = {
-            "shoot",
-            "shoot2",
-            "shoot3"
+            "shoot1_scoped",
+            "shoot2_scoped",
+            "shoot3_scoped"
         }
     },
     ["fire_empty"] = {

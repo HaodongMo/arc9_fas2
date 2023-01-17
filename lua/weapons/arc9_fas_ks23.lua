@@ -280,11 +280,7 @@ SWEP.Animations = {
         }
     },
     ["fire"] = {
-        Source = {
-            "fire01",
-            "fire02",
-            "fire03"
-        }
+        Source = "fire_iron"
     },
     ["fire_iron"] = {
         Source = "fire_iron"

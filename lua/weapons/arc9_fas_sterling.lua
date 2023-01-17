@@ -325,7 +325,7 @@ SWEP.Animations = {
         Mult = 3
     },
     ["fire"] = {
-        Source = {"shoot1", "shoot2"}
+        Source = "fire_scoped"
     },
     ["fire_empty"] = {
         Source = "shoot_last"
