@@ -143,16 +143,16 @@ SWEP.Animations = {
         Source = "deploy",
     },
     ["holster"] = {
-        Source = "deploy",
+        Source = "holster",
         Mult = -1
     },
     ["pullpin"] = {
-        Source = "throw",
+        Source = "pullpin",
         MinProgress = 0.75,
         FireASAP = true,
     },
     ["throw"] = {
-        Source = "idle",
+        Source = "throw",
         Time = 0.1
     }
 }
